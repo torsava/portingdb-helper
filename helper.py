@@ -14,24 +14,15 @@ logging.basicConfig(filename='helper.log', level=logging.INFO,
                     format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Create and populate a set of all python3 listed packages on PyPI
-python3 = set()
+# Create and populate a set of PyPI packages.
+pypi_all = set()
+pypi_p3 = set()
 
-with open('pypi-p3') as pypi:
-    python3.update([pkg.strip().lower() for pkg in pypi])
-    # print(len(python3))
+with open('pypi-all-packages') as pypi:
+    pypi_all.update([pkg.strip().lower() for pkg in pypi])
 
-with open('pypi-p3.5') as pypi:
-    python3.update([pkg.strip().lower() for pkg in pypi])
-    # print(len(python3))
-
-with open('pypi-p3.4') as pypi:
-    python3.update([pkg.strip().lower() for pkg in pypi])
-    # print(len(python3))
-
-with open('pypi-p3.3') as pypi:
-    python3.update([pkg.strip().lower() for pkg in pypi])
-    # print(len(python3))
+with open('pypi-p3-combined') as pypi:
+    pypi_p3.update([pkg.strip().lower() for pkg in pypi])
 
 with open('copypasta.txt') as copypasta:
     bugreport_msg = copypasta.read().strip()
@@ -45,7 +36,7 @@ with open('copypasta.txt') as copypasta:
 #     for pkg in pdb:
 #         pkg = pkg.strip()
 #         nPkgTotal += 1
-#         if pkg in python3 or re.sub("^python\d?-", '', pkg) in python3:
+#         if pkg in pypi_p3 or re.sub("^python\d?-", '', pkg) in pypi_p3:
 #             print("\tPython3 ready: %s" % pkg)
 #             nPython3 += 1
 #     print("\nPython3 ready total %s out of %s" % (nPython3, nPkgTotal))
@@ -87,15 +78,20 @@ with open('portingdb-waiting-live') as pdb:
 
         # Search through PyPI:
         pkg_core = pkg.lower()
-        pkg_core = re.sub("(?i)^python\d?-?", '', pkg)
+        pkg_core = re.sub("(?i)^python\d?-?", '', pkg_core)
         pkg_core = re.sub("(?i)^py-?", '', pkg_core)
         print("Searching PyPI for package: %s" % pkg_core)
 
         pypi3 = False
-        for p3 in python3:
-            if pkg_core in p3:
-                print("\tFound: %s" % p3)
-                pypi3 = True
+        print()
+        for pypi_pkg in pypi_all:
+            if pkg_core in pypi_pkg:
+                if pypi_pkg in pypi_p3:
+                    print("\tFound Python3 capable package: %s" % pypi_pkg)
+                    pypi3 = True
+                else:
+                    print("\tFound p2 pkg: %s" % pypi_pkg)
+        print()
 
         sh.google_chrome(url_newbug % pkg)
 
@@ -106,15 +102,16 @@ with open('portingdb-waiting-live') as pdb:
         sh.google_chrome(url_pkgdb % pkg)
         pyautogui.hotkey('alt', 'l')
 
-        input("Loaded?   (Press [Enter]) ")
-        pyautogui.hotkey('alt', 'h')
-        pyautogui.typewrite(['/'], interval=0.25)
-        pyautogui.typewrite("upstream")
-        pyautogui.typewrite(['enter'], interval=0.25)
-        pyautogui.hotkey('ctrl', 'enter')
-        # pyautogui.hotkey('ctrl', 'shift', 'tab')
-        pyautogui.hotkey('ctrl', 'shift', 'tab')
-        pyperclip.copy('python')
+        response = input("Loaded?   (Press [Enter]; [s]kip) ")
+        if response != 's':
+            pyautogui.hotkey('alt', 'h')
+            pyautogui.typewrite(['/'], interval=0.25)
+            pyautogui.typewrite("upstream")
+            pyautogui.typewrite(['enter'], interval=0.25)
+            pyautogui.hotkey('ctrl', 'enter')
+            # pyautogui.hotkey('ctrl', 'shift', 'tab')
+            pyautogui.hotkey('ctrl', 'shift', 'tab')
+            pyperclip.copy('python')
 
 
         # Interactive phase
