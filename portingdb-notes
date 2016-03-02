@@ -18,5 +18,13 @@ arandr:
 
 archivemail:
 	dead-upstream: true
+
 arm-none-eabi-gdb:
 	dead-upstream: true
+
+
+bmpanel2:
+	dead-upstream: true
+
+boom:
+    python3-pull-request: https://github.com/tarekziade/boom/pull/52

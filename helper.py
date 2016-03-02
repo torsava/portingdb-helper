@@ -18,19 +18,19 @@ logger = logging.getLogger(__name__)
 python3 = set()
 
 with open('pypi-p3') as pypi:
-    python3.update([pkg.strip() for pkg in pypi])
+    python3.update([pkg.strip().lower() for pkg in pypi])
     # print(len(python3))
 
 with open('pypi-p3.5') as pypi:
-    python3.update([pkg.strip() for pkg in pypi])
+    python3.update([pkg.strip().lower() for pkg in pypi])
     # print(len(python3))
 
 with open('pypi-p3.4') as pypi:
-    python3.update([pkg.strip() for pkg in pypi])
+    python3.update([pkg.strip().lower() for pkg in pypi])
     # print(len(python3))
 
 with open('pypi-p3.3') as pypi:
-    python3.update([pkg.strip() for pkg in pypi])
+    python3.update([pkg.strip().lower() for pkg in pypi])
     # print(len(python3))
 
 with open('copypasta.txt') as copypasta:
@@ -85,63 +85,72 @@ with open('portingdb-waiting-live') as pdb:
 
         print("\n\n=================== %s ====================" % pkg)
 
-        pypi3 = pkg in python3 or re.sub("^python\d?-", '', pkg) in python3
+        # Search through PyPI:
+        pkg_core = pkg.lower()
+        pkg_core = re.sub("(?i)^python\d?-?", '', pkg)
+        pkg_core = re.sub("(?i)^py-?", '', pkg_core)
+        print("Searching PyPI for package: %s" % pkg_core)
+
+        pypi3 = False
+        for p3 in python3:
+            if pkg_core in p3:
+                print("\tFound: %s" % p3)
+                pypi3 = True
 
         sh.google_chrome(url_newbug % pkg)
-        sh.google_chrome(url_buglist % pkg)
 
         if pypi3:
-            print("Python3 ready on PyPi.")
-        else:
-            sh.google_chrome(url_pkgdb % pkg)
-            pyautogui.hotkey('alt', 'l')
+            sh.google_chrome("https://pypi.python.org/pypi?:action=browse&c=533&show=all")
 
-            input("Loaded?   (Press [Enter]) ")
-            pyautogui.hotkey('alt', 'h')
-            pyautogui.typewrite(['/'], interval=0.25)
-            pyautogui.typewrite("upstream")
-            pyautogui.typewrite(['enter', 'enter'], interval=0.25)
-            pyautogui.hotkey('ctrl', 'shift', 'tab')
-            pyperclip.copy('python 3')
+        sh.google_chrome(url_buglist % pkg)
+        sh.google_chrome(url_pkgdb % pkg)
+        pyautogui.hotkey('alt', 'l')
+
+        input("Loaded?   (Press [Enter]) ")
+        pyautogui.hotkey('alt', 'h')
+        pyautogui.typewrite(['/'], interval=0.25)
+        pyautogui.typewrite("upstream")
+        pyautogui.typewrite(['enter'], interval=0.25)
+        pyautogui.hotkey('ctrl', 'enter')
+        # pyautogui.hotkey('ctrl', 'shift', 'tab')
+        pyautogui.hotkey('ctrl', 'shift', 'tab')
+        pyperclip.copy('python')
 
 
         # Interactive phase
         response = input("Fill out new bug report?   " +
-                "(Yes=leave empty; Skip=non empty; already [e]xists) ")
-        while True:
-            if response == 'r' or not response:
-                # Fill out the bug report
-                pyautogui.hotkey('alt', 'h')
-                pyautogui.typewrite(['esc'])
-                pyautogui.typewrite('gi')
-                pyautogui.typewrite(['tab', 'tab'])
-                pyautogui.typewrite("%s: Provide a Python 3 subpackage" % pkg)
-                pyautogui.typewrite(['tab'])
-                pyautogui.hotkey('ctrl', 'a')
-                pyperclip.copy(bugreport_msg)
-                pyautogui.hotkey('ctrl', 'v')
-                pyautogui.typewrite(['esc'])
-                time.sleep(0.5)
-                pyautogui.typewrite(['G', 'f'], interval=0.25)
-                pyperclip.copy('1285816')
+                "(Skip=leave empty; Yes=non empty; already [e]xists) ")
 
-                response = input("Log as successful Bug filing?   " +
-                        "(Yes=leave empty; [r]epeat last operation) ")
-                if response != 'r':
-                    if not response:
-                        logger.info("Filed: %s" % pkg)
-                    else:
-                        # User chose not to fill out a bug report.
-                        logger.info("Skipped: %s" % pkg)
-                    break
-            elif response == 'e':
-                logger.info("Already exists: %s" % pkg)
-                pyperclip.copy('1285816')
-                break
+        if response == 'e':
+            logger.info("Already exists: %s" % pkg)
+            pyperclip.copy('1285816')
+            os.popen('xsel','wp').write(bugreport_msg)
+        elif response:
+            # Fill out the bug report
+            pyautogui.hotkey('alt', 'h')
+            pyautogui.typewrite(['esc'])
+            pyautogui.typewrite('gi')
+            pyautogui.typewrite(['tab', 'tab'])
+            pyautogui.typewrite("%s: Provide a Python 3 subpackage" % pkg)
+            pyautogui.typewrite(['tab'])
+            pyautogui.hotkey('ctrl', 'a')
+            pyperclip.copy(bugreport_msg)
+            pyautogui.hotkey('ctrl', 'v')
+            pyautogui.typewrite(['esc'])
+            time.sleep(0.5)
+            pyautogui.typewrite(['G', 'f'], interval=0.25)
+            pyperclip.copy('1285816')
+
+            response = input("Log as successful Bug filing?   " +
+                    "(Yes=leave empty) ")
+            if not response:
+                logger.info("Filed: %s" % pkg)
             else:
                 # User chose not to fill out a bug report.
                 logger.info("Skipped: %s" % pkg)
-                break
+        else:
+            # User chose not to fill out a bug report.
+            logger.info("Skipped: %s" % pkg)
 
         response = input("Upstream dead?   (NO=leave empty; DEAD=non empty) ")
         if response:
