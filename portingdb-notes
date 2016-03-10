@@ -4,6 +4,7 @@ python-halite:
     dead-upstream: true
     note: |
         "Halite is officially retired."
+
 python-HTMLgen:
     dead-upstream: true
 
@@ -22,13 +23,11 @@ archivemail:
 arm-none-eabi-gdb:
 	dead-upstream: true
 
-
 bmpanel2:
 	dead-upstream: true
 
 boom:
     python3-pull-request: https://github.com/tarekziade/boom/pull/52
-
 
 certmaster:
 	dead-upstream: true
@@ -42,7 +41,6 @@ clac:
 cloudtoserver:
     python3-pull-request: https://github.com/fedora-cloud/cloudtoserver/pull/6
 
-
 comix:
 	dead-upstream: true
 
@@ -50,4 +48,11 @@ contextkit:
 	dead-upstream: true
 
 cwiid:
+	dead-upstream: true
+
+dpdk:
+    note: |
+        Python 3 support committed but not yet released.
+
+drobo-utils:
 	dead-upstream: true
