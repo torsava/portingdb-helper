@@ -99,7 +99,8 @@ with open('portingdb-waiting-live') as pdb:
         response = input("Loaded?   (Press [Enter]; [s]kip) ")
         if response != 's':
             switch_to_browser()
-            pyautogui.typewrite(['/'], interval=0.25)
+            # pyautogui.typewrite(['/'], interval=0.25)
+            pyautogui.hotkey('ctrl', 'f')
             pyautogui.typewrite("upstream")
             pyautogui.typewrite(['enter'], interval=0.25)
             pyautogui.hotkey('ctrl', 'enter')
