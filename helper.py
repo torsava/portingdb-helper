@@ -102,7 +102,7 @@ with open('portingdb-waiting-live') as pdb:
             # pyautogui.typewrite(['/'], interval=0.25)
             pyautogui.hotkey('ctrl', 'f')
             pyautogui.typewrite("upstream")
-            pyautogui.typewrite(['enter'], interval=0.25)
+            pyautogui.typewrite(['esc'], interval=0.25)
             pyautogui.hotkey('ctrl', 'enter')
             # pyautogui.hotkey('ctrl', 'shift', 'tab')
             pyautogui.hotkey('ctrl', 'shift', 'tab')
