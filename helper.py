@@ -9,6 +9,14 @@ import argparse
 import time
 import logging
 
+# User settings
+def switch_to_browser():
+    pyautogui.hotkey('alt', 'h')
+
+def switch_back_to_terminal():
+    pyautogui.hotkey('alt', 'l')
+
+
 # Setup logging
 logging.basicConfig(filename='helper.log', level=logging.INFO,
                     format='%(asctime)s - %(message)s')
@@ -26,20 +34,6 @@ with open('pypi-p3-combined') as pypi:
 
 with open('copypasta.txt') as copypasta:
     bugreport_msg = copypasta.read().strip()
-
-
-# Go through each portingdb waiting package
-# nPkgTotal = 0
-# nPython3 = 0
-# with open('portingdb-waiting-live') as pdb:
-#     # for pkg in itertools.islice(pdb, 10):
-#     for pkg in pdb:
-#         pkg = pkg.strip()
-#         nPkgTotal += 1
-#         if pkg in pypi_p3 or re.sub("^python\d?-", '', pkg) in pypi_p3:
-#             print("\tPython3 ready: %s" % pkg)
-#             nPython3 += 1
-#     print("\nPython3 ready total %s out of %s" % (nPython3, nPkgTotal))
 
 
 # Let's parse cmd line arguments
@@ -100,11 +94,11 @@ with open('portingdb-waiting-live') as pdb:
 
         sh.google_chrome(url_buglist % pkg)
         sh.google_chrome(url_pkgdb % pkg)
-        pyautogui.hotkey('alt', 'l')
+        switch_back_to_terminal()
 
         response = input("Loaded?   (Press [Enter]; [s]kip) ")
         if response != 's':
-            pyautogui.hotkey('alt', 'h')
+            switch_to_browser()
             pyautogui.typewrite(['/'], interval=0.25)
             pyautogui.typewrite("upstream")
             pyautogui.typewrite(['enter'], interval=0.25)
@@ -124,7 +118,7 @@ with open('portingdb-waiting-live') as pdb:
             os.popen('xsel','wp').write(bugreport_msg)
         elif response:
             # Fill out the bug report
-            pyautogui.hotkey('alt', 'h')
+            switch_to_browser()
             pyautogui.typewrite(['esc'])
             pyautogui.typewrite('gi')
             pyautogui.typewrite(['tab', 'tab'])
