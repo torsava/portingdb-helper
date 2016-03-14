@@ -43,6 +43,7 @@ parser = argparse.ArgumentParser(description='Process portingdb packages.')
 parser.add_argument('-a', '--after', dest='after', nargs=1, help='start after package')
 parser.add_argument('-f', '--from', dest='start', nargs=1, help='start from package')
 parser.add_argument('-o', '--only', dest='only', nargs=1, help='process only one package')
+parser.add_argument('-p', '--package', dest='package', nargs=1, help='process only package named PACKAGE')
 args = parser.parse_args()
 
 ready = not (args.after or args.start or args.only)
@@ -54,6 +55,9 @@ url_newbug = "https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&version=r
 url_pkgdb = "https://admin.fedoraproject.org/pkgdb/package/rpms/%s"
 
 with open('portingdb-waiting-live') as pdb:
+    if args.package:
+        pdb = [args.package[0]]
+
     for pkg in pdb:
         pkg = pkg.strip()
 
@@ -157,5 +161,5 @@ with open('portingdb-waiting-live') as pdb:
         if args.after:
             print("Could not find package: %s" % args.after[0])
         if args.start:
-            print("Could not find package: %s" % args.after[1])
+            print("Could not find package: %s" % args.start[1])
 
