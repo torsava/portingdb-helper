@@ -11,12 +11,12 @@ import logging
 
 # User settings
 def switch_to_browser():
-    # pyautogui.hotkey('alt', 'h')
-    pyautogui.hotkey('alt', 'tab')
+    pyautogui.hotkey('alt', 'h')
+    # pyautogui.hotkey('alt', 'tab')
 
 def switch_back_to_terminal():
-    # pyautogui.hotkey('alt', 'l')
-    pyautogui.hotkey('alt', 'tab')
+    pyautogui.hotkey('alt', 'l')
+    # pyautogui.hotkey('alt', 'tab')
 
 
 # Setup logging
@@ -44,6 +44,7 @@ parser.add_argument('-a', '--after', dest='after', nargs=1, help='start after pa
 parser.add_argument('-f', '--from', dest='start', nargs=1, help='start from package')
 parser.add_argument('-o', '--only', dest='only', nargs=1, help='process only one package')
 parser.add_argument('-p', '--package', dest='package', nargs=1, help='process only package named PACKAGE')
+parser.add_argument('-b', '--bug', dest='bug', nargs=1, help='solely file a bug for package named PACKAGE')
 args = parser.parse_args()
 
 ready = not (args.after or args.start or args.only)
@@ -57,6 +58,8 @@ url_pkgdb = "https://admin.fedoraproject.org/pkgdb/package/rpms/%s"
 with open('portingdb-waiting-live') as pdb:
     if args.package:
         pdb = [args.package[0]]
+    elif args.bug:
+        pdb = [args.bug[0]]
 
     for pkg in pdb:
         pkg = pkg.strip()
@@ -94,68 +97,67 @@ with open('portingdb-waiting-live') as pdb:
         print()
 
         sh.google_chrome(url_newbug % pkg)
-
-        if pypi3:
-            sh.google_chrome("https://pypi.python.org/pypi?:action=browse&c=533&show=all")
-
         sh.google_chrome(url_buglist % pkg)
-        sh.google_chrome(url_pkgdb % pkg)
-        switch_back_to_terminal()
 
-        response = input("Loaded?   (Press [Enter]; [s]kip) ")
-        if response != 's':
+        if not args.bug:
+            if pypi3:
+                sh.google_chrome("https://pypi.python.org/pypi?:action=browse&c=533&show=all")
+
+            sh.google_chrome(url_pkgdb % pkg)
+            switch_back_to_terminal()
+
+            response = input("Loaded?   (Press [Enter]; [s]kip) ")
+            if response != 's':
+                switch_to_browser()
+                # pyautogui.typewrite(['/'], interval=0.25)
+                pyautogui.hotkey('ctrl', 'f')
+                pyautogui.typewrite("upstream")
+                pyautogui.typewrite(['esc'], interval=0.25)
+                pyautogui.hotkey('ctrl', 'enter')
+                # pyautogui.hotkey('ctrl', 'shift', 'tab')
+                pyautogui.hotkey('ctrl', 'shift', 'tab')
+                pyperclip.copy('python')
+
+        # Interactive phase
+        response = input("Fill out new bug report?   " +
+                "(Skip=leave empty; Yes=non empty; already [e]xists) ")
+
+        if response == 'e':
+            logger.info("Already exists: %s" % pkg)
+            pyperclip.copy('1285816')
+            os.popen('xsel','wp').write(bugreport_msg)
+        elif response:
+            # Fill out the bug report
             switch_to_browser()
-            # pyautogui.typewrite(['/'], interval=0.25)
-            pyautogui.hotkey('ctrl', 'f')
-            pyautogui.typewrite("upstream")
-            pyautogui.typewrite(['esc'], interval=0.25)
-            pyautogui.hotkey('ctrl', 'enter')
-            # pyautogui.hotkey('ctrl', 'shift', 'tab')
-            pyautogui.hotkey('ctrl', 'shift', 'tab')
-            pyperclip.copy('python')
+            pyautogui.typewrite(['esc'])
+            pyautogui.typewrite('gi')
+            pyautogui.typewrite(['tab', 'tab'])
+            pyautogui.typewrite("%s: Provide a Python 3 subpackage" % pkg)
+            pyautogui.typewrite(['tab'])
+            pyautogui.hotkey('ctrl', 'a')
+            pyperclip.copy(bugreport_msg)
+            pyautogui.hotkey('ctrl', 'v')
+            pyautogui.typewrite(['esc'])
+            time.sleep(0.5)
+            pyautogui.typewrite(['G', 'f'], interval=0.25)
+            pyperclip.copy('1285816')
 
-        response = input("Next?   ([enter] to continue)")
+            response = input("Log as successful Bug filing?   " +
+                    "(Yes=leave empty) ")
+            if not response:
+                logger.info("Filed: %s" % pkg)
+            else:
+                # User chose not to fill out a bug report.
+                logger.info("Skipped: %s" % pkg)
+        else:
+            # User chose not to fill out a bug report.
+            logger.info("Skipped: %s" % pkg)
 
-        # # Interactive phase
-        # response = input("Fill out new bug report?   " +
-        #         "(Skip=leave empty; Yes=non empty; already [e]xists) ")
-
-        # if response == 'e':
-        #     logger.info("Already exists: %s" % pkg)
-        #     pyperclip.copy('1285816')
-        #     os.popen('xsel','wp').write(bugreport_msg)
-        # elif response:
-        #     # Fill out the bug report
-        #     switch_to_browser()
-        #     pyautogui.typewrite(['esc'])
-        #     pyautogui.typewrite('gi')
-        #     pyautogui.typewrite(['tab', 'tab'])
-        #     pyautogui.typewrite("%s: Provide a Python 3 subpackage" % pkg)
-        #     pyautogui.typewrite(['tab'])
-        #     pyautogui.hotkey('ctrl', 'a')
-        #     pyperclip.copy(bugreport_msg)
-        #     pyautogui.hotkey('ctrl', 'v')
-        #     pyautogui.typewrite(['esc'])
-        #     time.sleep(0.5)
-        #     pyautogui.typewrite(['G', 'f'], interval=0.25)
-        #     pyperclip.copy('1285816')
-
-        #     response = input("Log as successful Bug filing?   " +
-        #             "(Yes=leave empty) ")
-        #     if not response:
-        #         logger.info("Filed: %s" % pkg)
-        #     else:
-        #         # User chose not to fill out a bug report.
-        #         logger.info("Skipped: %s" % pkg)
-        # else:
-        #     # User chose not to fill out a bug report.
-        #     logger.info("Skipped: %s" % pkg)
-
-        # response = input("Upstream dead?   (NO=leave empty; DEAD=non empty) ")
-        # if response:
-        #     logger.info("Dead-upstream: %s" % pkg)
-        #     with open('portingdb-notes', 'a') as notes:
-        #         notes.write("\n\n%s:\n\tdead-upstream: true" % pkg)
+        response = input("Upstream dead?   (NO=leave empty; DEAD=non empty) ")
+        if response:
+            logger.info("Dead-upstream: %s" % pkg)
+            with open('portingdb-notes', 'a') as notes:
+                notes.write("\n\n%s:\n\tdead-upstream: true" % pkg)
 
     if not ready:
         if args.after:

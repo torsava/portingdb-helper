@@ -117,3 +117,106 @@ Vim command to delete uninformative lines: :%s_.*<Command \'/usr/bin/google-chro
 2016-03-03 11:46:23,875 - Skipped: driconf
 2016-03-03 14:10:14,744 - Skipped: drobo-utils
 2016-03-03 14:10:16,095 - Dead-upstream: drobo-utils
+2016-03-11 13:42:08,431 - <Command '/usr/bin/google-chro...(93 more)' call_args {'no_err': False, 't...(476 more)>: starting process
+2016-03-11 13:42:08,857 - <Command '/usr/bin/google-chro...(55 more)' call_args {'no_err': False, 't...(476 more)>: starting process
+2016-03-11 13:42:09,373 - <Command '/usr/bin/google-chro...(61 more)' call_args {'no_err': False, 't...(476 more)>: starting process
+2016-03-11 13:42:37,355 - <Command '/usr/bin/google-chro...(93 more)' call_args {'cwd': None, 'inter...(476 more)>: starting process
+2016-03-11 13:42:37,777 - <Command '/usr/bin/google-chro...(55 more)' call_args {'cwd': None, 'inter...(476 more)>: starting process
+2016-03-11 13:42:38,282 - <Command '/usr/bin/google-chro...(61 more)' call_args {'cwd': None, 'inter...(476 more)>: starting process
+2016-03-11 13:43:43,477 - <Command '/usr/bin/google-chro...(93 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-03-11 13:43:43,898 - <Command '/usr/bin/google-chro...(55 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-03-11 13:43:44,474 - <Command '/usr/bin/google-chro...(61 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-03-11 13:44:41,412 - <Command '/usr/bin/google-chro...(93 more)' call_args {'with': False, 'env...(476 more)>: starting process
+2016-03-11 13:44:41,843 - <Command '/usr/bin/google-chro...(55 more)' call_args {'with': False, 'env...(476 more)>: starting process
+2016-03-11 13:44:42,420 - <Command '/usr/bin/google-chro...(61 more)' call_args {'with': False, 'env...(476 more)>: starting process
+2016-03-11 13:45:09,978 - <Command '/usr/bin/google-chro...(91 more)' call_args {'with': False, 'env...(476 more)>: starting process
+2016-03-11 13:45:10,399 - <Command '/usr/bin/google-chro...(61 more)' call_args {'with': False, 'env...(476 more)>: starting process
+2016-03-11 13:45:10,938 - <Command '/usr/bin/google-chro...(53 more)' call_args {'with': False, 'env...(476 more)>: starting process
+2016-03-11 13:45:11,504 - <Command '/usr/bin/google-chro...(59 more)' call_args {'with': False, 'env...(476 more)>: starting process
+2016-03-14 18:41:28,736 - <Command '/usr/bin/google-chro...(96 more)' call_args {'cwd': None, 'out_b...(476 more)>: starting process
+2016-03-14 18:41:29,181 - <Command '/usr/bin/google-chro...(58 more)' call_args {'cwd': None, 'out_b...(476 more)>: starting process
+2016-03-14 18:41:29,715 - <Command '/usr/bin/google-chro...(64 more)' call_args {'cwd': None, 'out_b...(476 more)>: starting process
+2016-03-14 18:44:40,003 - <Command '/usr/bin/google-chro...(96 more)' call_args {'err_bufsize': 1, '...(476 more)>: starting process
+2016-03-14 18:44:40,436 - <Command '/usr/bin/google-chro...(58 more)' call_args {'err_bufsize': 1, '...(476 more)>: starting process
+2016-03-14 18:44:41,012 - <Command '/usr/bin/google-chro...(64 more)' call_args {'err_bufsize': 1, '...(476 more)>: starting process
+2016-03-14 18:45:38,065 - <Command '/usr/bin/google-chro...(96 more)' call_args {'no_out': False, 'b...(476 more)>: starting process
+2016-03-14 18:45:38,496 - <Command '/usr/bin/google-chro...(58 more)' call_args {'no_out': False, 'b...(476 more)>: starting process
+2016-03-14 18:45:39,010 - <Command '/usr/bin/google-chro...(64 more)' call_args {'no_out': False, 'b...(476 more)>: starting process
+2016-03-14 18:57:52,336 - <Command '/usr/bin/google-chro...(96 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-03-14 18:57:52,811 - <Command '/usr/bin/google-chro...(58 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-03-14 18:57:53,337 - <Command '/usr/bin/google-chro...(64 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-03-14 18:58:37,362 - Skipped: python-lzo
+2016-03-14 18:58:49,364 - <Command '/usr/bin/google-chro...(96 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-03-14 18:58:49,799 - <Command '/usr/bin/google-chro...(58 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-03-14 18:58:50,357 - <Command '/usr/bin/google-chro...(64 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-03-15 11:41:09,889 - <Command '/usr/bin/google-chro...(92 more)' call_args {'tty_out': True, 't...(476 more)>: starting process
+2016-03-15 11:42:23,169 - Filed: libldb
+2016-03-15 11:42:31,304 - <Command '/usr/bin/google-chro...(92 more)' call_args {'tty_in': False, 'e...(476 more)>: starting process
+2016-03-15 11:45:46,200 - Filed: opencv
+2016-03-15 11:46:21,783 - <Command '/usr/bin/google-chro...(96 more)' call_args {'bg': False, 'iter_...(476 more)>: starting process
+2016-03-15 11:46:22,205 - <Command '/usr/bin/google-chro...(58 more)' call_args {'bg': False, 'iter_...(476 more)>: starting process
+2016-03-15 11:48:02,311 - <Command '/usr/bin/google-chro...(100 more)' call_args {'timeout_signal': 9...(476 more)>: starting process
+2016-03-15 11:48:02,733 - <Command '/usr/bin/google-chro...(62 more)' call_args {'timeout_signal': 9...(476 more)>: starting process
+2016-03-15 11:50:27,950 - Filed: python-pylibmc
+2016-03-15 11:50:41,650 - <Command '/usr/bin/google-chro...(99 more)' call_args {'tee': None, 'ok_co...(476 more)>: starting process
+2016-03-15 11:50:42,062 - <Command '/usr/bin/google-chro...(61 more)' call_args {'tee': None, 'ok_co...(476 more)>: starting process
+2016-03-15 13:55:40,844 - Filed: python-restsh
+2016-03-15 13:55:59,752 - <Command '/usr/bin/google-chro...(99 more)' call_args {'err': None, 'no_pi...(476 more)>: starting process
+2016-03-15 13:56:00,185 - <Command '/usr/bin/google-chro...(61 more)' call_args {'err': None, 'no_pi...(476 more)>: starting process
+2016-03-15 13:59:58,938 - Filed: python-yourls
+2016-03-15 14:00:03,368 - <Command '/usr/bin/google-chro...(106 more)' call_args {'no_err': False, 'b...(476 more)>: starting process
+2016-03-15 14:00:03,779 - <Command '/usr/bin/google-chro...(68 more)' call_args {'no_err': False, 'b...(476 more)>: starting process
+2016-03-15 14:02:55,209 - Filed: python-zope-datetime
+2016-03-15 14:03:02,607 - <Command '/usr/bin/google-chro...(113 more)' call_args {'tty_out': True, 'e...(476 more)>: starting process
+2016-03-15 14:03:03,028 - <Command '/usr/bin/google-chro...(75 more)' call_args {'tty_out': True, 'e...(476 more)>: starting process
+2016-03-15 14:07:26,376 - Filed: python-zope-processlifetime
+2016-03-15 14:07:47,687 - <Command '/usr/bin/google-chro...(110 more)' call_args {'with': False, 'out...(476 more)>: starting process
+2016-03-15 14:07:48,109 - <Command '/usr/bin/google-chro...(72 more)' call_args {'with': False, 'out...(476 more)>: starting process
+2016-03-15 14:08:36,374 - Filed: python-zope-sequencesort
+2016-03-15 14:08:42,579 - <Command '/usr/bin/google-chro...(112 more)' call_args {'in_bufsize': 0, 'o...(476 more)>: starting process
+2016-03-15 14:08:43,001 - <Command '/usr/bin/google-chro...(74 more)' call_args {'in_bufsize': 0, 'o...(476 more)>: starting process
+2016-03-15 14:09:34,526 - Filed: python-zope-structuredtext
+2016-03-15 14:09:46,320 - <Command '/usr/bin/google-chro...(92 more)' call_args {'in_bufsize': 0, 't...(476 more)>: starting process
+2016-03-15 14:09:46,743 - <Command '/usr/bin/google-chro...(54 more)' call_args {'in_bufsize': 0, 't...(476 more)>: starting process
+2016-03-15 14:12:55,445 - Filed: tweepy
+2016-03-15 14:23:55,785 - <Command '/usr/bin/google-chro...(113 more)' call_args {'decode_errors': 's...(476 more)>: starting process
+2016-03-15 14:23:56,208 - <Command '/usr/bin/google-chro...(75 more)' call_args {'decode_errors': 's...(476 more)>: starting process
+2016-03-15 15:01:24,079 - Filed: python-rosinstall_generator
+2016-03-15 15:01:31,795 - <Command '/usr/bin/google-chro...(99 more)' call_args {'iter_noblock': Non...(476 more)>: starting process
+2016-03-15 15:01:32,207 - <Command '/usr/bin/google-chro...(61 more)' call_args {'iter_noblock': Non...(476 more)>: starting process
+2016-03-23 18:19:03,071 - <Command '/usr/bin/google-chro...(94 more)' call_args {'tty_in': False, 'e...(476 more)>: starting process
+2016-03-23 18:19:03,514 - <Command '/usr/bin/google-chro...(56 more)' call_args {'tty_in': False, 'e...(476 more)>: starting process
+2016-03-23 18:19:10,979 - Skipped: libplist
+2016-03-23 18:19:36,303 - <Command '/usr/bin/google-chro...(94 more)' call_args {'iter_noblock': Non...(476 more)>: starting process
+2016-03-23 18:19:36,712 - <Command '/usr/bin/google-chro...(56 more)' call_args {'iter_noblock': Non...(476 more)>: starting process
+2016-03-23 18:20:57,682 - Filed: shiboken
+2016-03-23 18:21:06,942 - <Command '/usr/bin/google-chro...(94 more)' call_args {'no_pipe': False, '...(476 more)>: starting process
+2016-03-23 18:21:07,342 - <Command '/usr/bin/google-chro...(56 more)' call_args {'no_pipe': False, '...(476 more)>: starting process
+2016-03-23 18:22:09,074 - Filed: cracklib
+2016-03-23 18:22:19,649 - <Command '/usr/bin/google-chro...(94 more)' call_args {'cwd': None, 'done'...(476 more)>: starting process
+2016-03-23 18:22:20,051 - <Command '/usr/bin/google-chro...(56 more)' call_args {'cwd': None, 'done'...(476 more)>: starting process
+2016-03-23 18:25:16,800 - Filed: libplist
+2016-03-29 11:23:48,420 - <Command '/usr/bin/google-chro...(92 more)' call_args {'no_out': False, 'e...(476 more)>: starting process
+2016-03-29 11:23:48,854 - <Command '/usr/bin/google-chro...(54 more)' call_args {'no_out': False, 'e...(476 more)>: starting process
+2016-03-29 11:31:35,860 - Filed: ps_mem
+2016-03-30 16:30:06,437 - <Command '/usr/bin/google-chro...(96 more)' call_args {'in_bufsize': 0, 'o...(476 more)>: starting process
+2016-03-30 16:30:06,850 - <Command '/usr/bin/google-chro...(58 more)' call_args {'in_bufsize': 0, 'o...(476 more)>: starting process
+2016-03-30 16:30:43,866 - Filed: git-review
+2016-03-30 16:30:57,354 - <Command '/usr/bin/google-chro...(95 more)' call_args {'piped': None, 'out...(476 more)>: starting process
+2016-03-30 16:30:57,766 - <Command '/usr/bin/google-chro...(57 more)' call_args {'piped': None, 'out...(476 more)>: starting process
+2016-03-30 16:36:05,761 - Filed: git-tools
+2016-03-30 16:36:10,852 - <Command '/usr/bin/google-chro...(93 more)' call_args {'no_err': False, 'i...(476 more)>: starting process
+2016-03-30 16:36:11,267 - <Command '/usr/bin/google-chro...(55 more)' call_args {'no_err': False, 'i...(476 more)>: starting process
+2016-03-30 16:51:50,960 - Filed: pyaudio
+2016-03-30 16:51:53,705 - <Command '/usr/bin/google-chro...(93 more)' call_args {'env': None, 'decod...(476 more)>: starting process
+2016-03-30 16:51:54,127 - <Command '/usr/bin/google-chro...(55 more)' call_args {'env': None, 'decod...(476 more)>: starting process
+2016-03-30 16:53:32,064 - Skipped: pyaudio
+2016-03-30 16:53:50,290 - <Command '/usr/bin/google-chro...(97 more)' call_args {'long_sep': '=', 'i...(476 more)>: starting process
+2016-03-30 16:53:50,724 - <Command '/usr/bin/google-chro...(59 more)' call_args {'long_sep': '=', 'i...(476 more)>: starting process
+2016-03-30 16:54:30,880 - Filed: pycolumnize
+2016-03-30 16:54:37,667 - <Command '/usr/bin/google-chro...(93 more)' call_args {'tee': None, 'out':...(476 more)>: starting process
+2016-03-30 16:54:38,079 - <Command '/usr/bin/google-chro...(55 more)' call_args {'tee': None, 'out':...(476 more)>: starting process
+2016-03-30 16:59:30,901 - Skipped: pyliblo
+2016-03-30 16:59:35,993 - <Command '/usr/bin/google-chro...(93 more)' call_args {'timeout': 0, 'ok_c...(476 more)>: starting process
+2016-03-30 16:59:36,406 - <Command '/usr/bin/google-chro...(55 more)' call_args {'timeout': 0, 'ok_c...(476 more)>: starting process
+2016-03-30 17:26:02,377 - Filed: pyliblo
