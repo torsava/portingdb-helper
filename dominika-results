@@ -1,0 +1,89 @@
+#### NOT READY ####
+fedora-motd     https://github.com/rtnpro/fedora-motd/pull/1
+itstool - https://github.com/itstool/itstool/pull/3 - in-progress
+
+
+
+
+
+
+
+============================================================================
+===   DONE   ===============================================================
+============================================================================
+
+### With bugs ###
+fabric          https://pypi.python.org/pypi/Fabric3/1.10.2.post3
+ - that's a fork, not the original project
+   - this has already been mentioned in portingdbnotes
+
+### Python3 upstream in progress ###  == noted in upstream.yaml
+fife            https://github.com/fifengine/fifengine/issues/631
+glacier-cli     https://github.com/basak/glacier-cli/pull/54
+gyp             https://codereview.chromium.org/1454433002
+konversation    https://konversation.kde.org/
+
+### Dead upstream ###  ======= all noted in portingdb
+dtrx
+dwarves
+enemies-of-carlotta
+epydoc
+findthatword
+fwfstab
+glue-validator
+gst-inspector
+international-time
+libiptcdata
+libkdtree++
+lilv >>> https://github.com/moddevices/lilvlib (new, not outdated, supporting Python3)
+magicor
+marave
+
+
+### Packages dealt with appropriately:
+
+
+#### Jan ###
+python-xhtml2pdf	https://pypi.python.org/pypi/xhtml2pdf/0.1a1
+python-xml2rfc	https://pypi.python.org/pypi/xml2rfc/
+python-w3lib	https://pypi.python.org/pypi/w3lib/1.13.0
+python-walkdir	http://walkdir.readthedocs.org/en/latest/
+python-warlock	https://github.com/bcwaldon/warlock
+### Python3 upstream ###
+emacs-pymacs    https://github.com/pinard/Pymacs
+flann           https://github.com/mariusmuja/flann/pull/46
+FlightCrew      https://github.com/Sigil-Ebook/flightcrew/blob/e46f054d6f1ec7d0f8b3dc0694c74e60f7843823/src/FlightCrew-plugin/plugin.xml
+fontdump        https://github.com/glasslion/fontdump/blob/d7be673abb8750571370424a5dc77d63d9395859/setup.py
+fontforge       https://github.com/fontforge/fontforge/issues/1731
+glib2           http://www.linuxfromscratch.org/blfs/view/svn/general/glib2.html
+glusterfs       https://github.com/gluster/glusterfs/blob/51632e1eec3ff88d19867dc8d266068dd7db432a/contrib/ipaddr-py/test-2to3.sh
+gpsd            http://catb.org/gpsd/NEWS
+i2c-tools       https://github.com/groeck/i2c-tools/blob/9726bed900c1e4a46b2c024a43dec987215570be/CHANGES
+imgbased        https://github.com/fabiand/imgbased/blob/5f71e03eaf19ebfe693b27ed14545594a9aae81a/packaging/rpm/imgbased.spec
+Io-language     https://github.com/stevedekorte/io/pull/326
+itstool         https://github.com/itstool/itstool/pull/3
+khal            https://github.com/pimutils/khal/blob/01ad22b732b35897fb1ca08a4d2fb3e671a3be5a/setup.py
+khard           https://github.com/scheibler/khard/pull/59
+lcm             https://github.com/lcm-proj/lcm/issues/22
+ldns            http://git.nlnetlabs.nl/ldns/commit/?id=8cc74fc0c519ca8d6c3d07b36c53cedf6717c43b
+libcaca         http://caca.zoy.org/changeset/4802
+libftdi         http://www.intra2net.com/en/developer/libftdi/
+libproxy        http://ftp.eq.uc.pt/software/pc/prog/cygwin/release/libproxy/python3-libproxy/
+libsearpc       https://github.com/haiwen/libsearpc/pull/21
+libvoikko       http://voikko.puimula.org/releases.html
+lshell          https://github.com/ghantoos/lshell/blob/1d5d36dc6147202e6529b18cf9ae9e3b6d37aa40/CHANGES
+maildirproc     http://fedora.portingdb.xyz/pkg/maildirproc/
+marisa          https://github.com/kmike/marisa-trie
+nut             https://github.com/networkupstools/nut/pull/129
+### In Pypi database with Python 3 ###
+gmpy            https://pypi.python.org/pypi/gmpy2
+gmsh            https://pypi.python.org/pypi/pygmsh/2.1.1
+gpaw            https://pypi.python.org/pypi/gpaw/1.0.0b2
+mailman         https://pypi.python.org/pypi/mailman/3.0.1
+notmuch         https://pypi.python.org/pypi/notmuch/0.15.1
+### Python3 upstream in progress ###
+glade3          https://git.gnome.org/browse/glade/commit/?id=66c6d21d7af8e56e9a52d9ff83684044121c04d5
+ - looks like upstream is done??
+letsencrypt     https://github.com/letsencrypt/letsencrypt/issues/962
+ - does not fully support python3
+

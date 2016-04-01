@@ -8,6 +8,7 @@
 3d-wallet-generator
 3to2
 42cc-pystyle
+4scanner
 51degrees-mobile-detector
 51degrees-mobile-detector-v3-trie-wrapper
 51degrees-mobile-detector-v3-wrapper
@@ -17,12 +18,15 @@ ACSpy
 ADTM
 AIKIF
 AMQP-Storm
+AMQPStorm
 ANNOgesic
 ANNarchy
 API-libs
 APImetrics
 APScheduler
 APacheDEX
+ASMO
+ASTFormatter
 Abjad
 Accord
 AceMorse
@@ -34,6 +38,7 @@ ActivePapers.Py
 AdHoc
 Adafruit-ADS1x15
 Adafruit-MCP3008
+Adafruit-Thermal
 Adafruit_BBIO
 AdvancedHTMLParser
 AdvancedHTTPServer
@@ -68,6 +73,7 @@ ApiDoc
 AppDynamicsDownloader
 AppDynamicsREST
 AppMetrics
+Appli
 Aquarius
 ArcREST_Package
 ArgParseInator
@@ -151,6 +157,7 @@ CFFIpp
 CIRpy
 CLAM
 CLASHChimeras
+CLIve
 CMS
 COS
 CSSOnDiet
@@ -231,8 +238,8 @@ Congo
 ConnectorDB
 Contexts
 ConvUtils
-CoolWorld
 Corpse
+Corrfunc
 CortanaAnalytics
 CouchDB
 CppHeaderParser
@@ -247,6 +254,7 @@ CuriousORM
 Currency
 CursingSpock
 Cycler
+Cyther
 Cython
 Cytoplasm
 D2LValence
@@ -257,6 +265,7 @@ DAWG-Python
 DBQuery
 DBSync
 DBUSSimpleNotify
+DESolver
 DIY-FilingsResearch
 DR14-T.meter
 DaemonLite
@@ -326,6 +335,7 @@ Drum
 DrumHAT
 Drupdates
 DtoTools
+DukeDSClient
 DummyPdf
 Dumper
 DwaPython
@@ -384,12 +394,14 @@ EzDialog
 FATS
 FFGo
 FFT-tools
+FHR-DB
 FLaP
 FORD
 FRB
 Fabric3
 Fabric3bis
 FacebookSearch
+Faker
 Fakes
 FallingRocks
 FanfictionAPI
@@ -414,6 +426,7 @@ Flask-Admin
 Flask-Alchemy
 Flask-AlchemyDumps
 Flask-Alcool
+Flask-Analytics
 Flask-And-Redis
 Flask-AppFactory
 Flask-Assets
@@ -439,7 +452,9 @@ Flask-Cake
 Flask-Captcha
 Flask-CassandraDB
 Flask-Celery-Helper
+Flask-Celery-py3
 Flask-CeleryExt
+Flask-Classful
 Flask-Classy
 Flask-Cloudy
 Flask-Components
@@ -453,6 +468,7 @@ Flask-Crud
 Flask-DB2
 Flask-Dataset
 Flask-Decorators
+Flask-Diced
 Flask-Docker
 Flask-DropIn
 Flask-Ecstatic
@@ -474,6 +490,7 @@ Flask-HAL
 Flask-HTTPAuth
 Flask-HashFS
 Flask-HipPocket
+Flask-Humanize
 Flask-IIIF
 Flask-Injector
 Flask-JIRA-Helper
@@ -506,6 +523,7 @@ Flask-Neo4j
 Flask-Nicely
 Flask-OAuth2Server
 Flask-OAuthlib
+Flask-Obscure
 Flask-PagedList
 Flask-Phrase
 Flask-Pilot
@@ -537,11 +555,13 @@ Flask-ReportableError
 Flask-Resize
 Flask-Responses
 Flask-RestPoints
+Flask-Restler
 Flask-Restless
 Flask-Run
 Flask-SQLAlchemy
 Flask-SQLAlchemy-Cache
 Flask-SQLAlchemy-Session
+Flask-SQLAlchemy-tw
 Flask-SSO
 Flask-Scaffold
 Flask-Script
@@ -591,6 +611,7 @@ Freedroidz
 Fridge
 FriendlyPi
 FrozenFW
+Fsdb
 FullContact.py
 Furtive
 FutureFinity
@@ -600,7 +621,7 @@ GCAP
 GChartWrapper
 GDAL
 GDM
-GPy
+GIQLogging
 Gallerize
 GameBaker
 GameOfLife
@@ -624,6 +645,7 @@ GetDist
 GetGist
 GetMediumURL
 GitLayer
+GitMan
 GitPython
 GitRemote
 Githubarium
@@ -655,6 +677,7 @@ GrindStone
 Grortir
 GroupyAPI
 Gryd
+Guajiro
 GumbyElf
 Gwydion
 HEpigram
@@ -673,6 +696,7 @@ Henson
 Henson-AMQP
 Henson-Database
 Henson-Logging
+Henson-S3
 Henson-Sentry
 Heppi
 HermesCache
@@ -704,6 +728,7 @@ Inirama
 Inject
 Integer-Tuple-Generator
 IntelHex
+IntelliCoder
 InteractiveCommandLine
 Intercom
 Interlinears
@@ -728,6 +753,9 @@ Kanedama
 Karrigell
 Katal
 Katana
+Keg
+KegBouncer
+KegElements
 Kerapu
 Khayyam
 Khayyam3
@@ -770,6 +798,8 @@ LowVoltage
 LsAPI
 Luhn_Algorithm_Validator
 Luna
+Lytebot
+MAD
 MC6809
 MCP342x
 MDP
@@ -802,10 +832,14 @@ MarkdownPP
 MarkdownSubscript
 MarkdownSuperscript
 MarkdownTools
+MarkovNetwork
+MarkovText
 MarkupSafe
 Markups
 Marnadi
+Marshmallow-Peewee
 MatPlotTheme
+Mathics
 MechanicalSoup
 MediaInfo
 MeshPy
@@ -873,6 +907,7 @@ NodeTree
 Nortek
 NumRep
 Numdifftools
+Numscrypt
 Nxpy
 OASYS
 OApackage
@@ -909,7 +944,6 @@ PDF
 PDFTron-PDFNet-SDK-for-Python
 PGPy
 POAP
-POPO
 PSI
 PSphinxTheme
 PTable
@@ -937,6 +971,7 @@ Patchemy
 Paver
 PdCommPy
 PdfAutoNup
+PdfFormFiller
 PdfImpose
 PeakUtils
 Pebble
@@ -1039,6 +1074,7 @@ PyDSTool
 PyDYN
 PyDataColl
 PyDataLoader
+PyDatastream
 PyDeepLearning
 PyDidYouMean
 PyDispatcher
@@ -1054,6 +1090,7 @@ PyFile
 PyFileSec
 PyFizzBuzz
 PyFoam
+PyFunctional
 PyGLW
 PyGSP
 PyGSSAPI
@@ -1062,6 +1099,7 @@ PyGaia
 PyGithub
 PyGithub-requests
 PyGlobalShortcut
+PyGreSQL
 PyGuitarPro
 PyHDFS
 PyHacc
@@ -1121,6 +1159,7 @@ PyOpenLCB
 PyOphidia
 PyPDF2
 PyPOM
+PyParticleIO
 PyPlatec
 PyPrind
 PyProt
@@ -1136,6 +1175,8 @@ PyRAML
 PyRAS
 PyRakLib
 PyRhO
+PyRollbar
+PyRollbarAPI
 PyRomfsImage
 PyRook
 PySAL
@@ -1185,6 +1226,7 @@ PyVISA
 PyVISA-py
 PyVISA-sim
 PyVMF
+PyVTK
 PyVXML
 PyValitron
 PyVantagePro
@@ -1207,6 +1249,7 @@ PyZufall
 PyZureML
 Pybooru
 Pycolor
+Pyentist
 Pyfig-config-parser
 Pygalume
 Pyganim
@@ -1217,10 +1260,13 @@ Pygments-Delegate-Formatter
 Pygments-Inject-Filter
 Pygments-JSON-Formatter
 Pygments-Segment-Token
+Pyjo-Reactor-Asyncio
+Pyjoyment
 Pykka
 Pylatte
 Pylot
 Pymem
+Pymm
 Pympler
 Pynamixel
 Pypeline
@@ -1285,6 +1331,7 @@ RYMTracks
 Radicale
 Rails
 Ramiel
+Ranch
 RandomGetter
 RandomThings
 RandomWords
@@ -1302,8 +1349,10 @@ Record
 RecursiveDocument
 Redis-Semaphore
 Reflex-events
+RelayMuseum
 Releasy
 Relief
+ReliefF
 Reloadr
 Repack
 Represent
@@ -1326,6 +1375,7 @@ RunningCalcs
 Rx
 RxPython
 SATOSA
+SCICAST
 SClib
 SDEAdmin
 SDoc
@@ -1364,7 +1414,6 @@ SaltPyLint
 SamSifter
 Santos
 SassPython
-Sastrawi
 Saycloud
 Scal
 ScalaFunctional
@@ -1434,6 +1483,7 @@ SparseEdges
 Specter
 SpeechRecognition
 Sphinx
+SpotifyDownload
 SpreadsheetConverter
 Srango
 StackAPI
@@ -1457,6 +1507,7 @@ SysScribe
 TA-Lib
 TIE
 TMDAng
+TMgr
 TPOT
 TTYLight-Python
 TVDGameOfThrones
@@ -1514,7 +1565,6 @@ TripleSec
 Trixy
 Trololio
 Tumulus
-TurboConfig
 TurboGears2
 Twiggy
 Twisted
@@ -1523,8 +1573,10 @@ Twitch.py
 TwitterFollowBot
 TwitterMonitor
 TwitterSearch
+TwitterToReddit
 TwoTerm
 Tyf
+Tymeventure
 TypedInterpolation
 UCSDYelpData
 UP-Manager
@@ -1573,6 +1625,7 @@ WeRoBot
 WeasyPrint
 WeatherAlerts
 WebDispatch
+WebLurker
 WebOb
 WebPages
 WebPattern
@@ -1616,6 +1669,7 @@ Xmlify
 Xnt
 Xymon_Class
 YAROM
+YAX
 YORM
 YQLStock
 Yaco
@@ -1646,6 +1700,8 @@ ablog
 ably
 abo-generator
 aboardly
+about
+aboutdir
 aboutyou
 abraxas
 absdga
@@ -1672,6 +1728,7 @@ acme.dchat
 acora
 acousticsim
 acrylamid
+action
 activecampaign
 activedirectory
 actors
@@ -1680,6 +1737,7 @@ ad
 adafruit-io
 adal
 adamalib
+adb3
 adblockparser
 addfips
 addic7ed
@@ -1712,7 +1770,6 @@ aestools
 aff4-snappy
 affurl
 afp
-afplay
 after_hours
 aftership
 agarclient
@@ -1728,6 +1785,7 @@ agate-sql
 agate-stats
 agavepy
 agd_tools
+agen
 agenda
 agent
 agents-collecting
@@ -1787,11 +1845,13 @@ aioflock
 aioftp
 aiogearman
 aiogibson
+aiogithub
 aiogreen
 aiogremlin
 aioh2
 aiohttp
 aiohttp-apiset
+aiohttp-index
 aiohttp-jrpc
 aiohttp-riak
 aiohttp-transmute
@@ -1829,6 +1889,8 @@ aioredux
 aiorequests
 aiorest
 aiorest-ws
+aiorethink
+aioriak
 aiorq
 aiorwlock
 aiosasl
@@ -1905,6 +1967,7 @@ alengen
 alerta
 alerta-server
 alex_asr
+alexandra
 alf
 algebraixlib
 algoliasearch
@@ -1923,8 +1986,10 @@ aliyun-python-sdk-batchcompute
 aliyun-python-sdk-bsn
 aliyun-python-sdk-bss
 aliyun-python-sdk-cdn
+aliyun-python-sdk-cf
 aliyun-python-sdk-cms
 aliyun-python-sdk-core
+aliyun-python-sdk-core-patch-cf
 aliyun-python-sdk-crm
 aliyun-python-sdk-cs
 aliyun-python-sdk-drds
@@ -1950,9 +2015,11 @@ all
 allein_zu_haus
 allfiles
 alligator
+allthekernels
 allyourbase
 almonds
 almost
+alms
 aloe
 aloe_django
 aloe_webdriver
@@ -1961,6 +2028,7 @@ alpaca-django
 alpaca-monitor
 alpaca-variant-caller
 alphabet-detector
+alsapyer
 alsaseq
 altapay
 alteraparser
@@ -1996,10 +2064,12 @@ amt
 anaconda_mode
 anafero
 analog
+analytics-python
 analyzerdam
 analyzere
 analyzerstrategies
 anapioficeandfire
+anchor
 anchorhub
 ancientsolutions-crypttools
 android
@@ -2017,6 +2087,7 @@ anillo
 anillo_auth
 anillo_sentry
 anima
+animemon
 aniso8601
 annotate
 annoy
@@ -2077,6 +2148,7 @@ apicultur
 apiscraper
 apispec
 aplazame-sdk
+aplist
 apns-worker
 apns2
 apod-wallpaper
@@ -2098,6 +2170,7 @@ applause-tool
 apple
 applib
 applicationinsights
+applite
 apply
 applyaf
 appnope
@@ -2115,6 +2188,7 @@ apt-mirror-updater
 apt-wrapper
 aptdetector
 apyclient
+apyori
 apysigner
 aqua-io
 aquire
@@ -2201,6 +2275,7 @@ ascetic
 asciaf
 ascii_graph
 asciicells
+asciilove
 asciimatics
 asciitable
 ascribe
@@ -2220,12 +2295,14 @@ asphalt-mailer
 asphalt-py4j
 asphalt-serialization
 asphalt-sqlalchemy
+aspose-email-java-for-jython
 aspy.refactor_imports
 aspy.yaml
 asq
 asr
 ass
 assembla
+assembla-cli
 assert_exists
 assertpy
 asserts
@@ -2235,6 +2312,7 @@ ast2src
 astcheck
 astdispatch
 astdump
+aster
 asterisklint
 asteriskonf
 asteval
@@ -2283,6 +2361,7 @@ asynqp
 asynx-core
 atapt
 atavism
+atelier
 atg
 atilla
 atlassian-jwt-auth
@@ -2301,6 +2380,7 @@ attrdict
 attributetools
 attrs
 attrz
+auacm
 audiolazy
 audioread
 audiosocket
@@ -2313,6 +2393,7 @@ aur
 auromat
 auroraplot
 aury
+austere
 australian_ntv2_grid_conversion
 auth
 auth.credential
@@ -2330,6 +2411,7 @@ autobahn
 autobahn-sync
 autocheck
 autocommand
+autoconfig
 autocov
 autoflake
 autograd
@@ -2366,6 +2448,8 @@ awg
 awkwardduet
 awlsim
 aws-custom-json-manager
+aws-identity-manager
+aws-keyring
 aws-saml-login
 aws_role_credentials
 awscli
@@ -2380,6 +2464,7 @@ awstestutils
 awsutils
 axarray
 axel
+axsemantics
 ayame
 ayrton
 azkaban
@@ -2388,11 +2473,13 @@ azoth
 aztex
 azuki
 azure
+azure-batch
 azure-batch-apps
 azure-common
 azure-graphrbac
 azure-mgmt
 azure-mgmt-authorization
+azure-mgmt-batch
 azure-mgmt-cdn
 azure-mgmt-common
 azure-mgmt-compute
@@ -2449,6 +2536,7 @@ backports.weakref
 backports_abc
 backquotes
 backslant
+backslash
 backtrader
 backtranslate
 backup2swift
@@ -2466,6 +2554,7 @@ bakery
 baldr
 ballpark
 balrog
+bam_readgroup_to_json
 bamboo_api
 bamutil_tool
 bandar
@@ -2483,6 +2572,7 @@ barbeque
 barchart-ondemand-client-python
 barcode-generator
 barcodegen
+barcodenumber
 baremetal-network-provisioning
 baresql
 barify
@@ -2490,6 +2580,8 @@ barman
 barnum
 baron
 barsup-core
+basc
+base116676
 base32-crockford
 base36
 basebot
@@ -2502,6 +2594,7 @@ bash8
 bash_kernel
 bash_quote
 bashate
+bashcolor
 bashlint
 bashplotlib
 bashup
@@ -2547,7 +2640,6 @@ beancount-pygments-lexer
 beans
 beanstalkclient
 beanstalkt
-bear
 beast2bpp
 beastling
 beautifulsoup4
@@ -2566,6 +2658,7 @@ behave-http
 behave-jenkins
 behave-py3
 behave-pytest
+behave-web-api
 behaving
 beluga
 bench
@@ -2574,6 +2667,7 @@ bencoder.pyx
 bendcode
 bender-hooks
 benry
+benzo
 bep
 bepasty
 bepasty-client-cli
@@ -2598,11 +2692,12 @@ bettertimeit
 between
 bewth
 beyonic
-bf-lc3
 bfab
+bfdpie
 bfg
 bfg9000
 bg
+bgeo.catasto
 bhf
 bib
 bibcleaner
@@ -2636,6 +2731,7 @@ bincopy
 bing_search_api
 bing_translator
 bingads
+bingmaps
 bingo
 binio
 binlog
@@ -2646,6 +2742,7 @@ bintrees
 bio_utils
 biobambam_tool
 bioblend
+bioepic
 bioformats
 bioinfo
 biomaj
@@ -2657,6 +2754,7 @@ birdseed
 biro
 bitarray
 bitbucket-jekyll-hook
+bitbucket-linter
 bitcasa
 bitcodin
 bitcoin-python3
@@ -2735,6 +2833,7 @@ blox
 bls
 bluelet
 bluepass
+bluepy
 bluesky_libpython
 blug
 bluread
@@ -2742,6 +2841,7 @@ bm
 bme280
 bmpc
 bna
+bng-latlon
 boadata
 boardgamegeek
 boatman
@@ -2754,6 +2854,7 @@ bob.db.arface
 bob.db.atnt
 bob.db.atvskeystroke
 bob.db.avspoof
+bob.db.avspoof_btas2016
 bob.db.banca
 bob.db.base
 bob.db.biosecure
@@ -2809,6 +2910,7 @@ bob.sp
 bobo
 bobtemplates.jpcw
 bobtemplates.pypbr
+bofhexcuse
 bogglesolver
 bogo
 boilerpipe-py3
@@ -2824,8 +2926,8 @@ booby
 book2arrange
 bookmark_merger
 boolexp
-boolexpr
 boos
+boosterpacks
 bootils
 bootloaderProfiler
 bootstrap-py
@@ -2881,6 +2983,7 @@ boupy
 bower-cache
 bower.py
 box-it-up
+boxed
 boxmath
 boxsdk
 boyle
@@ -2894,9 +2997,11 @@ bqx
 brabbel
 braceexpand
 braces
+bragly
 braillegraph
 brain
 brainstorm
+branca
 brandelion
 bravado
 bravado-core
@@ -2905,6 +3010,7 @@ brazilnum
 bread
 breadability
 breadsticks
+breaks
 brebis
 bredala
 breed
@@ -2951,6 +3057,7 @@ bstvis
 bsub
 btcde
 btcmagic
+btcndash
 btctxstore
 btlroute
 btparser
@@ -2963,6 +3070,7 @@ btsbots-wallet
 btsprice
 btspusher
 btzen
+bubblepy
 bubbles
 bucho
 bucketlist
@@ -3020,6 +3128,7 @@ bw2data
 bw2parameters
 bw2speedups
 bw2temporalis
+bwa_tool
 bwikibot
 byteasm
 bytecode
@@ -3040,8 +3149,10 @@ cac-panel
 cache-tagging
 cache_requests
 cachebust
+cachecowEmory
 cached
 cached-property
+cachepy
 cachetools
 cacofonisk
 cacpanel
@@ -3059,6 +3170,7 @@ calendra
 calibtools
 callchain
 calldules
+callee
 caller_module
 callerframe
 calliope
@@ -3140,6 +3252,7 @@ cats
 catsim
 catsup
 cattleprod
+causalmodels
 cavejohnson
 cbeams
 cbf
@@ -3160,12 +3273,14 @@ cdiff
 cdis_pipe_utils
 cdist
 cdl_convert
+cds-dojson
 ceacoest
 cedexis.radar
 ceek
 ceilometer-powervm
 ceilometermiddleware
 celery
+celery-graceful-stop
 celery-haystack
 celery-pipeline
 celery-redis-sentinel
@@ -3198,8 +3313,10 @@ certifi
 certify
 certitude
 certvalidator
+cf-predict
 cfenv
 cffi
+cffi_utils
 cfgtodict
 cflib
 cfnplan
@@ -3242,7 +3359,9 @@ charmy
 chartbeatpy
 chartkick
 chassis
+chatimusmaximus
 chatpy
+chatterbot-voice
 chatterbox
 chaussette
 check
@@ -3290,6 +3409,7 @@ chk
 chkcrontab
 chloride
 choice
+choice_enum
 chompack
 chomsky
 choo
@@ -3316,6 +3436,7 @@ chzip
 ciabatta
 cibopath
 cicli
+cid
 cider
 cidrtrie
 cifparser
@@ -3346,6 +3467,7 @@ citylink-utils
 civet
 civicjson
 ciworker
+cjk-defn
 ck
 ckuehl_pre_commit_types
 cl
@@ -3355,6 +3477,7 @@ clap-api
 clapp
 clarify_brightcove_sync
 clarify_python
+claslite
 classdirectory
 classifiers
 classipy
@@ -3384,11 +3507,13 @@ cliask
 clibuilder
 click
 click-default-group
+click-didyoumean
 click-plugins
 click-shell
 click-toolbelt
 click-utils
 clickclick
+clients
 clientsubnetoption
 clif
 cliff
@@ -3446,11 +3571,13 @@ cloudns
 cloudpickle
 cloudpipe
 cloudpulse
+cloudsight
 cloudtb
 cloudwatch-to-graphite
 clowder
 cltk
 cluster
+cluster-lensing
 clusterclienttest
 clustercron
 clusterjob
@@ -3464,8 +3591,11 @@ cmdlnui
 cmdlr
 cmdman
 cmdssh
+cmdstats
 cmonkey
+cmp_version
 cmpcfg
+cmsplugin-container
 cmsplugin-googleplus
 cmsplugin-iframe
 cmsplugin-nvd3
@@ -3523,6 +3653,7 @@ coding
 coercion
 coeus
 coffeetools
+coform
 cogapp
 cognate
 cognosco
@@ -3574,7 +3705,9 @@ colour-science
 colourettu
 colout
 colpy
+columnize
 combi
+combinators
 combomethod
 comiccrawler
 commah
@@ -3588,6 +3721,7 @@ comment_parser
 commit-coverage
 committer
 common-python-difio
+commonfate
 commonlib
 commons_py
 community_mailbot
@@ -3602,6 +3736,8 @@ compleat
 complexity
 compliancelib
 component
+compose_format
+compose_plantuml
 composite
 compot
 compoundfiles
@@ -3609,12 +3745,14 @@ compoundpi
 compoze
 compute-hyperv
 computer
+computerwords
 compysition
 comtypes
 concatenate_files
 concentration
 concept-py
 concepts
+concierge
 concurrencytest
 concurrent-iterator
 conda
@@ -3625,6 +3763,7 @@ conda-workon
 condent
 condiment
 conditional
+conditions
 condor
 conf
 confduino
@@ -3632,6 +3771,7 @@ confetti
 confgen
 confidant
 config-sci
+config_edit
 config_resolver
 configclass
 configdb
@@ -3650,6 +3790,7 @@ confire
 confiture
 confix
 conflib
+confloader
 confluence
 confluence-publisher
 confluencer
@@ -3717,13 +3858,17 @@ cookiecutter-pypackage-minimal
 cookiecutter-python-library-demo
 cookiepatcher
 cookies
+cookiestxt
 cookpy
 cooler
 coolfig
 coolname
 cooperate
+copydoc
 copypaste
 copyrightupdate
+copysc
+coquery
 cordwainer
 corker
 cornice
@@ -3734,6 +3879,7 @@ corto
 cos2
 cosmic_ray
 cosmoHammer
+cosmos
 costcla
 cot
 cotede
@@ -3778,7 +3924,6 @@ cr8
 crabigator
 crabpy
 crabpy_pyramid
-cradox
 craftbuildtools
 craigslist-rental-market
 cram
@@ -3791,12 +3936,12 @@ crate-peewee
 cratesmirror
 crc16
 crcache
+crccheck
 crcelk
 crcli
 crcmod
 crdist
 crdown
-crds
 create_ap-gui
 createcoverage
 cred-client
@@ -3824,6 +3969,7 @@ crowdin-client
 crowfood
 crox
 crudexml
+crudit
 crumbs
 crunchy2mkv
 crust
@@ -3834,7 +3980,9 @@ crypto-drive-manager
 cryptoassets.core
 cryptoassets.django
 cryptocoin
+cryptoconditions
 cryptography
+cryptopie
 cryptotools
 cs
 cs.ansi_colour
@@ -3902,11 +4050,13 @@ csvfile
 csvkit
 csvmatch
 csvorm
+csvpivot
 csvpp
 csvtomd
 csvwriter
 csvxls
 csx
+ctds
 ctext
 ctmatching
 ctop
@@ -3923,6 +4073,7 @@ ctznosx
 cual-id
 cuba
 cubes
+cubicweb-postgis
 cubieleds
 cuckooapi
 cuckoos
@@ -3953,11 +4104,15 @@ custodian
 customerio
 cut
 cutadapt
+cutaudio
 cuteshop
 cutest.py
 cutplace
 cuts
 cutter
+cvra
+cvra-packager
+cvra_bootloader
 cvss
 cvss-util
 cvsslib
@@ -3971,6 +4126,7 @@ cyflann
 cygnet_common
 cykeccak
 cylon.py
+cymem
 cymysql
 cyordereddict
 cypher
@@ -4009,6 +4165,7 @@ darts.util.events
 dash.py
 datCrawl
 data
+data-depgraph
 data-readers
 data-structures
 data-writers
@@ -4043,6 +4200,7 @@ dataserv-client
 dataset
 dataset-creator
 datasets
+datashader
 datashell
 datasift
 datasift-beta
@@ -4052,13 +4210,14 @@ datatables
 dataview
 datawire-cloudtools
 date_range
+datedelta
 datefinder
 dateinfer
 datemangler
 dateparser
-datetime2
 datetimeex
 datrie
+davis-weatherlink-scraper
 dawn
 dayone_export
 daysgrounded
@@ -4089,10 +4248,15 @@ dc-django-base
 dcard_coworker
 dcc
 dcextensions
+dci
+dci-agents
+dci-feeders
+dciclient
 dcitools
 dclab
 dcos
 dcoscli
+dcxml
 dd
 ddbscan
 ddd
@@ -4175,6 +4339,7 @@ demopan
 demopkg_gpe
 demultipart
 denden_extension
+denis
 dennis
 dependencies
 dependency-check
@@ -4239,6 +4404,7 @@ dgim
 dhcpkit
 dhcpkit_looking_glass
 dhcpkit_technicolor
+dhmm
 dhp
 diabase
 diablo3api
@@ -4256,6 +4422,7 @@ dic32
 dice
 diceware
 diceware_list
+dicom2nifti
 dicompyler-core
 dict
 dict.sorted
@@ -4329,7 +4496,6 @@ distro
 distrust
 disttask
 distutilazy
-distutils-tinyhtmlwriter
 ditail
 diversipy
 diy-django
@@ -4347,6 +4513,7 @@ dj-extensions
 dj-geocoding
 dj-haystack-url
 dj-inmemorystorage
+dj-labeler
 dj-libcloud
 dj-livesettings
 dj-obj-update
@@ -4371,6 +4538,7 @@ djChoices
 dj_diabetes
 dj_mano
 dj_rcc
+djactasauth
 django-FIUT
 django-GNU-Terry-Pratchett
 django-OneTimePassword
@@ -4435,6 +4603,7 @@ django-ajaximage
 django-akamai-storage
 django-alacarte
 django-aliyun-oss2-storage
+django-aliyun-storage
 django-all-access
 django-allauth
 django-allauth-bootstrap
@@ -4454,6 +4623,7 @@ django-anonsurvey
 django-anonsurvey3
 django-anonymizer
 django-anonymous-notification
+django-any-backend
 django-any-urlfield
 django-anylink
 django-anymail
@@ -4475,6 +4645,7 @@ django-assetfiles
 django-asutheme
 django-async-test
 django-asyncmailer
+django-attachments
 django-audiotracks
 django-audit-log
 django-audit-tools
@@ -4482,6 +4653,7 @@ django-auth-abakus
 django-auth-adfs
 django-auth-ldap
 django-auth-ldap-ng
+django-auth-mixins
 django-auth-token-permission
 django-auth-utils
 django-auth-wall
@@ -4518,7 +4690,9 @@ django-base64field
 django-basic-blog
 django-basic-cms
 django-basic-email
+django-basic-models-behaviors
 django-basis
+django-beauty-view
 django-behave
 django-behind-lb
 django-bidi-utils
@@ -4527,6 +4701,7 @@ django-billjobs
 django-binaryfield
 django-bitbucket-hook
 django-bitfield
+django-bitoptions
 django-bittersweet
 django-blarg
 django-blargg
@@ -4563,6 +4738,7 @@ django-braces
 django-brazil-fields
 django-breadcrumbs3
 django-briteverify
+django-broadcast
 django-browserid
 django-browserstack-tools
 django-brunch
@@ -4575,6 +4751,7 @@ django-cache-machine
 django-cache-management
 django-cache-url
 django-cacheback
+django-cached-modelforms
 django-cached_authentication_middleware
 django-cachedpaginator
 django-cachekiller
@@ -4629,12 +4806,14 @@ django-cleanup
 django-clearable-widget
 django-cli
 django-click
+django-clickclack
 django-closuretree
 django-cml
 django-cms
 django-cms_wg
 django-cmstemplates
 django-collectd-rest
+django-collectionfield
 django-colorful
 django-columns
 django-commands
@@ -4691,6 +4870,7 @@ django-crispy-forms
 django-crispy-forms-ng
 django-critical
 django-crontab
+django-cropduster
 django-crucrudile
 django-crudbuilder
 django-cruds
@@ -4722,6 +4902,7 @@ django-db-mailer
 django-db-mutex
 django-db-parti
 django-db-parti2
+django-db-prefix
 django-db-quick-setup
 django-db-signals
 django-db-storage
@@ -4760,6 +4941,7 @@ django-diary
 django-dict
 django-dict-response
 django-didadata
+django-directapps
 django-discover-runner
 django-discoverage
 django-discussions
@@ -4773,6 +4955,7 @@ django-djaken
 django-djangui
 django-djconfig
 django-djcopyright
+django-dob-widget
 django-docopt-command
 django-docusign
 django-donations
@@ -4803,6 +4986,7 @@ django-easy-seo
 django-easy-timezones
 django-easyasset
 django-easyfilters
+django-easyfilters-ap
 django-easyfilters-ex
 django-easymoney
 django-echo
@@ -4833,6 +5017,7 @@ django-embed9
 django-ember
 django-ember-index
 django-emoji
+django-emojione
 django-emoticons
 django-encode
 django-encrypted-pgjson
@@ -4845,6 +5030,7 @@ django-entity-event-slack
 django-entity-history
 django-enumchoicefield
 django-enumfield
+django-enums
 django-envelope
 django-envie
 django-environ
@@ -4972,7 +5158,9 @@ django-gcm-android-ios
 django-gddkia-impediments-on-roads
 django-generate-secret-key
 django-generic-file
+django-generic-flatblocks
 django-generic-helpers
+django-generic-plus
 django-generic-scaffold
 django-genericimports
 django-geo-timezones
@@ -5007,6 +5195,7 @@ django-guardian
 django-gulp
 django-gumby
 django-habitat
+django-hackref
 django-handlers
 django-happystamp
 django-hashers-passlib
@@ -5060,6 +5249,7 @@ django-infoNavigator
 django-informer
 django-initial-avatars
 django-inline-media
+django-inline-svg
 django-inlinetrans
 django-inplaceedit
 django-inplaceedit-bootstrap
@@ -5079,6 +5269,7 @@ django-isomorphic
 django-issue
 django-issueinspector
 django-italian-utils
+django-itunes
 django-jackfrost
 django-jellyglass
 django-jenkins
@@ -5086,6 +5277,7 @@ django-jet
 django-jigsawview
 django-jinja
 django-jinja-bootstrap-form
+django-jinja-knockout
 django-js-reverse
 django-js-utils-nextgen
 django-js-utils-ng
@@ -5111,6 +5303,7 @@ django-kittens
 django-klingon
 django-klisha
 django-kmatch
+django-knocker
 django-kong-admin
 django-korektor
 django-lab-members
@@ -5123,6 +5316,8 @@ django-lazy-choices
 django-lazy-tags
 django-lazysignup
 django-lazysignup-redux
+django-lbattachment
+django-lbutils
 django-ldap-groups-bsc
 django-le-social
 django-leads
@@ -5137,10 +5332,12 @@ django-lime
 django-linguist
 django-linkcheck
 django-listable
+django-livefield
 django-livereload
 django-livereload-server
 django-livesettings3
 django-livewatch
+django-loadjson
 django-local-settings
 django-localdevstorage
 django-localflavor
@@ -5158,6 +5355,7 @@ django-love-utils
 django-ma-settings
 django-machina
 django-macros
+django-mail-builder
 django-mail-factory
 django-mail-queue
 django-mail-templated
@@ -5168,6 +5366,7 @@ django-mailer
 django-mailgun
 django-mailgun-mime
 django-mailhide
+django-mailjet
 django-mailmangler
 django-mailqueue-backend
 django-mailru-money
@@ -5223,6 +5422,7 @@ django-minipg
 django-minipub
 django-misaka
 django-misfit
+django-ml_markdown
 django-mmc
 django-mobile
 django-mobile-app-distribution
@@ -5244,6 +5444,7 @@ django-money
 django-money-rates
 django-moneyfield
 django-mongo-sessions
+django-mongodb-engine-py3
 django-mongolog
 django-mongonaut
 django-monit-collector
@@ -5254,6 +5455,7 @@ django-mptt-admin
 django-mptt-urls
 django-mssql
 django-multi-email-field
+django-multi-fk
 django-multiform
 django-multilingual-model
 django-multilingual-search
@@ -5334,8 +5536,10 @@ django-orgco
 django-orm-sugar
 django-ormcache
 django-oscar
+django-oscar-accounts
 django-oscar-adyen
 django-oscar-api
+django-oscar-cch
 django-oscar-datacash
 django-oscar-facebook
 django-oscar-paypal
@@ -5358,10 +5562,12 @@ django-pages-cms
 django-pages-cms-extensions
 django-paginated-modelformset
 django-paginated-urls
+django-pagination-fork
 django-paginationlinks
 django-pagseguro-v1-p3
 django-pagseguro2
 django-pandas
+django-papertrail
 django-parler
 django-parler-rest
 django-parsley
@@ -5369,6 +5575,7 @@ django-password-policies
 django-password-reset
 django-password-session
 django-password-validation
+django-password-validators
 django-passwords
 django-payline-dotir
 django-payments
@@ -5467,6 +5674,7 @@ django-pyodbc-azure
 django-pyscss
 django-python3-ldap
 django-q
+django-qa
 django-qanda
 django-qartez
 django-query-builder
@@ -5588,6 +5796,7 @@ django-role-permissions
 django-rosetta
 django-roxyfileman
 django-rq
+django-rq-dashboard
 django-rq-jobs
 django-rrd
 django-rt
@@ -5602,6 +5811,7 @@ django-s3direct
 django-s3file
 django-safe-project
 django-safedelete
+django-safety
 django-sandstorm
 django-sane-redirects
 django-sass-processor
@@ -5635,6 +5845,7 @@ django-sequere
 django-sermepa
 django-server-metrics
 django-service-templates
+django-ses
 django-ses-backend
 django-sesame
 django-session-activity
@@ -5705,6 +5916,7 @@ django-smsish
 django-smuggler
 django-snakeoil
 django-sniplates
+django-snoopy
 django-soapbox
 django-social-auth3
 django-social-timeline
@@ -5725,7 +5937,6 @@ django-spitball
 django-split-settings
 django-sponsors
 django-spurl
-django-sql-debug
 django-sql-explorer
 django-sqlserver
 django-sr
@@ -5739,13 +5950,13 @@ django-stainless
 django-star-ratings
 django-static-lor
 django-static-precompiler
+django-static-sitemaps
 django-staticbuilder
 django-staticfiles-webpack
 django-staticfilesplus
 django-staticflatpages
 django-staticgen
 django-statici18n
-django-statsd
 django-status
 django-statuspage
 django-stdimage
@@ -5761,7 +5972,6 @@ django-stored-messages
 django-strategy-field
 django-stravauth
 django-stripe-payments
-django-stronghold
 django-su
 django-sub-query
 django-subcommand2
@@ -5786,6 +5996,7 @@ django-system-maintenance
 django-systemjs
 django-tabination
 django-tablature
+django-tables-helper
 django-tables2
 django-tables2-reports
 django-tabular-export
@@ -5825,10 +6036,12 @@ django-templatetag-handlebars
 django-templatetag-sugar
 django-templation
 django-tenancy
+django-tenants
 django-terms
 django-teryt
 django-test-plus
 django-test-without-migrations
+django-testbox
 django-testclient-extensions
 django-testing-base
 django-tests
@@ -5860,6 +6073,7 @@ django-tracked-model
 django-tracking-fields
 django-tracking2
 django-trackstats
+django-tradeking
 django-transaction-hooks
 django-transaction-signals-do-not-use
 django-translator
@@ -5868,6 +6082,7 @@ django-transmeta-jl
 django-trap
 django-treasuremap
 django-tree
+django-treeadmin-py35
 django-treebeard
 django-treemenus
 django-treemenus2
@@ -5891,6 +6106,7 @@ django-ts-router
 django-tsi3giam7-tiong1kai3
 django-ttdb
 django-turbolinks
+django-tutelary
 django-twilio
 django-twilio-sms
 django-twilio-sms-2
@@ -5909,6 +6125,7 @@ django-unixtimestampfield
 django-unsigned-fields
 django-unslashed
 django-unsubscribe
+django-unused-media
 django-updater
 django-updown
 django-upman
@@ -5969,6 +6186,7 @@ django-watchman
 django-watermark
 django-watson
 django-web-secure
+django-webapp-install-banner
 django-webdav-storage
 django-webline-notifications
 django-webmaster-verification
@@ -5977,6 +6195,7 @@ django-webp-converter
 django-webpack-loader
 django-webservice
 django-websettings
+django-webshell
 django-websocket-redis
 django-websocket-redis3
 django-webtest
@@ -6053,6 +6272,7 @@ django_jsonp
 django_linter
 django_loaddata_stdin
 django_mail_save
+django_mako_plus
 django_minimal_log
 django_model_helpers
 django_molder
@@ -6108,10 +6328,12 @@ djangocms-lab-publications
 djangocms-layout
 djangocms-link
 djangocms-mailchimp
+djangocms-nbrender
 djangocms-page-meta
 djangocms-page-sitemap
 djangocms-page-tags
 djangocms-picture
+djangocms-redirect
 djangocms-responsive-wrapper
 djangocms-restapi
 djangocms-revealjs
@@ -6125,6 +6347,7 @@ djangocms-table-changer
 djangocms-text-ckeditor
 djangocms-timer
 djangocms-twitter2
+djangocms-unitegallery
 djangocms-usersettings2
 djangocms-wow
 djangocms-youtube
@@ -6137,6 +6360,7 @@ djangogirls_usbgenerator
 djangohitcounter
 djangohmac
 djangoimagestyles
+djangomini
 djangonetsol-polls
 djangorcp
 djangorecipe
@@ -6215,6 +6439,7 @@ djorm-ext-pguuid
 djorm-hstore-editor
 djorm-pgarray
 djoser
+djproxy
 djpyro
 djradicale
 djrill
@@ -6231,6 +6456,7 @@ dlib
 dlipower
 dlitztest
 dlxsudoku
+dmengine
 dnasnout-client
 dns-lexicon
 dnsaio
@@ -6241,6 +6467,7 @@ dnspython3
 dnstk
 dnszonetest
 do
+do-latency
 do.py
 doan
 dobbin
@@ -6291,6 +6518,7 @@ docopt-dispatch
 docopt-mpe
 docopt-rc
 docopt-unicode
+docopt_plus
 docoptcfg
 docopts
 docpie
@@ -6305,6 +6533,7 @@ document_history
 documenteer
 docutils
 docutils-htmlwriter
+docutils-tinyhtmlwriter
 docx-mailmerge
 docxtpl
 dodge
@@ -6328,7 +6557,6 @@ doit-py
 doitlive
 dojson
 dokang_pdf
-dokkur-manager
 dokuwiki
 dolphinlog
 domain_models
@@ -6343,6 +6571,7 @@ don
 donemail
 donkey
 dont-argue
+dont-track-my-bros
 dont_puush_me
 dontasq
 donut
@@ -6351,10 +6580,12 @@ dooku
 dookumentation
 doopla
 dop
+doppel
 dorthy
 dosa
 dot3k
 dota
+dota2api
 dotconf
 dotenvfile
 dotfav
@@ -6362,11 +6593,13 @@ dotfiles
 dotgit
 dothebackup
 dotmod
+dotobject
 dotter
 doubles
 doublex
 doublex-expects
 dougrain
+dovecot-userpassdb
 downloadduxiu
 downloadhelper
 downyt
@@ -6383,6 +6616,7 @@ dpcontracts
 dpdb
 dpline
 dploy
+dplython
 dpnm
 dprj
 dps-pxpy
@@ -6431,11 +6665,17 @@ drf-toolbox
 drf-tools
 drf-tracking
 drf-utils
+drf_changemgmt
 drf_depaginator
 drf_dynamic_fields_mixin
 drf_eventlog
+drf_observer
 drfapidoc
+drfchangemgmt
 drfdocs
+drfjsonapi
+drfobserver
+drfpolicy
 drill
 drillpy
 drip
@@ -6514,6 +6754,7 @@ dyject
 dyn
 dyn-python
 dynaconf
+dynamic
 dynamic-forms
 dynamic_stock_model
 dynamicnumber
@@ -6542,6 +6783,7 @@ easy-expressions
 easy-logging
 easy-mask
 easy-thumbnails
+easy_karabiner
 easyconfig
 easycython
 easyentry
@@ -6556,6 +6798,8 @@ easymatrix
 easymodel
 easypay_api
 easyply
+easyproc
+easyquotation
 easysetup
 easysnmp
 easytrader
@@ -6603,6 +6847,7 @@ edc-registration
 edc-subject
 edc-sync
 edgedb
+edict-to-csv
 edimdownloader
 edison
 editpyxl
@@ -6613,6 +6858,8 @@ edpath
 eduextractor
 edutest
 eduxator
+edx-drf-extensions
+edx-lint
 eemeter
 effect
 efst
@@ -6628,6 +6875,8 @@ ejnug
 ejpiaj
 ejtp
 elastic-companion
+elastic-doc-manager
+elastic2-doc-manager
 elasticfun
 elasticsearch
 elasticsearch-dsl
@@ -6635,9 +6884,11 @@ elasticsearch-watcher
 elasticsearch_tornado
 elasticstack
 elasticutils
+elb-log-parser
 elementflow
 elementium
 elephant
+elevation
 eleve
 elfinder
 eliot
@@ -6741,6 +6992,7 @@ erepapi
 erigones-sddc-api
 erl_terms
 erlang_py
+erogamescape
 err
 errbit-reporter
 errbot
@@ -6770,6 +7022,7 @@ ethereum-contract
 ethereum-ipc-client
 ethereum-rpc-client
 ethereum-tester-client
+eti-page-cms
 etm_qt
 etmtk
 etree-trunc
@@ -6814,6 +7067,7 @@ exchange
 exchangelib
 excuses
 execnet
+executiontime
 executor
 eximagination
 exlogging
@@ -6837,6 +7091,7 @@ exquires
 exrex
 ext
 ext-util
+ext_pylib
 extcmd
 extend_me
 extended_ascii
@@ -6916,7 +7171,6 @@ fanyi
 farcy
 farfetch_api
 fargo
-farmpy
 farsheed
 farshid
 farthing
@@ -6958,6 +7212,7 @@ fbchat
 fbcli
 fblib
 fbpca
+fbsd_gpio
 fbxtools
 fcache
 fclear
@@ -6966,8 +7221,10 @@ fcrypto
 fdfs-tornado
 fdsocket
 fealty
+feather-format
 featureforge
 features
+featureswitches
 federated_monsters
 feed2zinnia
 feedbloom
@@ -6992,6 +7249,7 @@ ffmpegwrapper
 ffms
 ffmulticonverter
 ffnet
+ffprobe3
 ffpyplayer
 fhirclient
 fibers
@@ -7016,10 +7274,12 @@ filecache
 fileconfig
 filedepot
 filehub
+filelist
 fileloader
 filelock
 filemagic
 filemarx
+filename
 filenames
 fileperms
 filepicker
@@ -7036,14 +7296,15 @@ filterparams
 filterpy
 fimport
 finCal
+finam_stock_data
 finance-manager
+find-python
 findProcessOwner
 findProcessesUsing
 find_executable
 find_japanese
 find_module
 findd
-finder_selection
 findimports
 findtui
 findup
@@ -7062,6 +7323,7 @@ firebase-token-generator
 firebasin
 firebirdsql
 firecall
+firecloud
 firectl
 firefox-shm
 firefox_jar
@@ -7070,6 +7332,8 @@ first
 first_pypi_practice
 firstdata
 fish-bundles
+fish_base
+fishnet
 fissfc
 fisx
 fitsiochunked
@@ -7086,6 +7350,7 @@ fizzbotz
 fjd
 flake8
 flake8-builtins
+flake8-chart
 flake8-coding
 flake8-copyright
 flake8-deprecated
@@ -7130,10 +7395,10 @@ flask-gae
 flask-heroku
 flask-hookserver
 flask-htpasswd
-flask-humanize
 flask-init
 flask-io
 flask-ldap3-login
+flask-magic
 flask-manager
 flask-marshmallow
 flask-mongoengine
@@ -7171,6 +7436,7 @@ flask-wtf-alchemy-utils
 flask-zappa
 flask2postman
 flask_accept
+flask_basic_roles
 flask_datatables
 flask_markdown2
 flask_profiler
@@ -7197,6 +7463,7 @@ flex
 flexmock
 flextls
 flexx
+flickr-pony
 flickr_api_python
 flickrapi
 flint
@@ -7215,11 +7482,21 @@ flosculus
 floto
 flotsam
 flow
+flowdas-meta
 flower
 flower-new
 flowlogs_reader
 flownetpy
 flowp
+flowtool-all
+flowtool-base
+flowtool-git
+flowtool-gitflow
+flowtool-githooks
+flowtool-githooks-demo
+flowtool-python
+flowtool-stages
+flowtool-versioning
 flowy
 fluent-logger
 fluent-logger-pyramid
@@ -7256,6 +7533,7 @@ fogproxy
 foliadocserve
 folium
 fondasms
+font-line
 font-ttfa
 font-unicode
 fontawesome-markdown
@@ -7303,7 +7581,7 @@ fred
 fredapi
 freedom
 freelancersdk
-freeleech_dl
+freemail
 freenas.cli
 freenas.dispatcher
 freenas.utils
@@ -7348,11 +7626,12 @@ froshki
 frosted
 frosty
 frozendate
+frozenobj
 frules
 fs
+fsb5
 fsed
 fslib
-fso_auth
 fssa
 ftcbz
 ftfy
@@ -7371,10 +7650,12 @@ fuf
 fujian
 fulfil_client
 fullcontact-python
+fullcoverage
 fullpath
 fullqualname
 fullstate
 fumi
+func_timeout
 funconf
 funcparserlib
 funcsigs
@@ -7414,7 +7695,6 @@ gacli
 gaclient
 gaerpytz
 gaffer
-gagar
 gagrab
 gaia
 gajira13
@@ -7437,6 +7717,7 @@ gang
 ganglia
 gant
 ganymede
+gaode_lbs_sdk
 gapbuffer
 gar
 gardenkit
@@ -7483,6 +7764,7 @@ gddkia-impediments-on-roads
 gdepy
 gdoc-json-parser
 gdprox
+gdrivedownload
 gearbox
 gearhorn
 gearstore
@@ -7513,7 +7795,6 @@ genhub
 geniegui
 genipe
 genmod
-genomebinner
 genomediff
 genomfart
 genotype_network
@@ -7574,11 +7855,11 @@ getprintable
 getproperties
 getsong
 getsubclasses
-gevent
 gew
 gff3
 gffutils
 gfm
+gfworks
 gfycat
 gg_scraper
 ggcq
@@ -7622,6 +7903,7 @@ gipsy-pages
 gipsy-sections
 giraf
 girc
+girder
 gisht
 gist.py
 gistfetch
@@ -7643,6 +7925,7 @@ git-plus
 git-pm
 git-pr
 git-pre-push-hook
+git-repo
 git-svn-clone-externals
 git-sweep3k
 git-tessera
@@ -7659,6 +7942,7 @@ gitdb
 gitdh
 gitdict
 githsearch
+github-curl
 github-licker
 github-maintainer
 github-push-issues
@@ -7669,7 +7953,7 @@ github3.py
 github_api_python
 github_list_issues
 githubgateway
-githubname
+githublabelscopy
 gitime
 gitimport
 gitlab-freak
@@ -7746,6 +8030,7 @@ go-vies
 goat
 gob
 gobble
+goblin
 gocd
 gocept.cache
 gocept.collmex
@@ -7774,9 +8059,12 @@ good
 goodtables
 google-api-python-client
 google-api-python-client-uritemplate
+google-chrome-refresh-url
 google-i18n-address
 google-measurement-protocol
 google-ngram-downloader
+google-oauth
+google-oauth2l
 google-search-cli
 google_api
 google_drive_sync
@@ -7800,7 +8088,6 @@ gorilla
 gos
 gos-asm
 goshstore
-gossip
 gosyu
 got
 gotemp
@@ -7832,6 +8119,7 @@ gr
 gr1py
 grabber
 graceful
+grade-change-emailer
 gradescope-utils
 gradient-optimizers
 gradual
@@ -7852,6 +8140,7 @@ graph-tool-nn
 grapheekdb
 graphene
 graphenelib
+graphiit
 graphique-client
 graphistry
 graphite-api
@@ -7885,6 +8174,7 @@ green
 greencard
 greenery
 greenlet
+greentasks
 greptable
 grid-control
 gridic
@@ -7926,9 +8216,11 @@ gseapy
 gsm0338
 gsn_util
 gspread
+gspread-public
 gspreed
 gsqlite3
 gssapi
+gssapi_console
 gt
 gtabview
 gtfe
@@ -7947,6 +8239,7 @@ guess_language-spirit
 guessit
 guessit-rest
 guessproj
+guestbook-pro
 gui2py
 guibible
 guidata
@@ -8002,6 +8295,8 @@ handroll
 handsontablesjs
 handy
 hanga
+hangpanels
+hangul-romanize
 hangups
 hangups-robobrowser
 hangups-urwid
@@ -8010,7 +8305,6 @@ hansel
 hanziconv
 hanzidentifier
 hapapi
-haproxy-top
 haproxy_log_analysis
 haralyzer
 haralyzer-api
@@ -8042,6 +8336,7 @@ hatchery
 haversine
 hawkrest
 haxor
+haxor-news
 hazel
 hazm
 hbcht
@@ -8067,6 +8362,7 @@ headlessvim
 headsup
 healpy
 healthy
+hearthstone
 heat-translator
 heatmappy
 hedgeye_analysis
@@ -8076,6 +8372,7 @@ helionsdk
 helium
 hello-python2
 hello_pip
+helloworld1995
 helper
 helpful
 helpful-site
@@ -8096,6 +8393,7 @@ hexagonit.recipe.download
 hexconnector
 hexdump
 hexes
+hexformat
 hf3lint
 hfcca
 hfilesize
@@ -8158,8 +8456,9 @@ hl7
 hl7tersely
 hmac_authentication
 hmac_cli
-hmcomex
+hmm
 hmmlearn
+hmmtest01
 hncli
 hnmp
 hockeyapp
@@ -8167,10 +8466,12 @@ hocr
 hodge
 hoedown
 hoep
+hola_mundo
 holidays
 holmesalf
 holmium.core
 holocron
+holocron-clear-theme
 holocron-creole
 holoviews
 home
@@ -8193,7 +8494,6 @@ horizon-benchmark-dashboard
 horizon-bsn
 horizon-hpe-storage-ui
 horizon-sensu-dashboard
-horizon-ssmc-link
 horizon_api_mask
 horizon_contrib
 horizon_overrides_plugin
@@ -8225,11 +8525,13 @@ hprof2flamegraph
 hprose
 hpsspy
 hrf_estimation
+hs3sh
 hsaudiotag3k
 hsh
 hsme
 hspfbintoolbox
 hspicefile
+ht
 htail
 htc
 htdataredirector
@@ -8295,6 +8597,7 @@ hubot-hangups
 hubugs
 hubward
 hug
+hug_store_redis
 humanfriendly
 humanhash3
 humanize
@@ -8303,9 +8606,16 @@ humanstxt
 humblesetuptools
 humilis
 humilis-filter
+humilis-filter-field
+humilis-filter-session
+humilis-firehose
 humilis-firehose-resource
+humilis-map-csv
+humilis-map-session
+humilis-map-uaparse
 humilis-secrets-vault
-humilis-slack2ec2
+humilis-slack-post
+humilis-slack2aws
 humilis-streams
 hummus
 humongous
@@ -8333,6 +8643,7 @@ hyhyhy
 hymn
 hyp
 hyp-server
+hypar
 hypatia
 hypatia_engine
 hypchat
@@ -8354,11 +8665,13 @@ hyuki-cvs-graph
 i18n_utils
 i2cdev
 i3-dstatus
+i3-output-selector
 i3barfodder
 i3ipc
 i3menu
 i3pystatus
 i3pystatus_anybar
+i3weather
 i8c
 iAST
 iMX233_GPIO
@@ -8368,6 +8681,7 @@ iResign
 iac-protocol
 iam_acctmgr
 iamine
+iamport-rest-client
 iampq
 ianitor
 iap_local_receipt
@@ -8388,6 +8702,7 @@ icall
 icalretriever
 ice
 icePick
+icecake
 icemac.songbeamer
 icheck
 icon_font_to_png
@@ -8395,6 +8710,7 @@ iconframer
 ics
 ics2caldav
 ics2task
+icsectl
 icy
 iddt
 ideascaly
@@ -8402,8 +8718,8 @@ identity-toolkit-python-client
 ideskeleton
 idict
 idigbio
+idiotic
 idlbridge
-idle
 idlite
 idlk
 idna
@@ -8486,6 +8802,7 @@ importlib-no-failure
 importlib2
 importlite
 imports
+importscan
 imprimatur
 impyla
 imread
@@ -8498,11 +8815,16 @@ incuna-request-logging
 incuna-test-utils
 index
 indexed-list
+indexedproperty
 indexedredis
 indexiterator
 indexr
+indicium
+indicium-git
+indicium-ldap
 induction
 inet
+inetnums
 infermedica-api
 infi.asi
 infi.cwrap
@@ -8523,6 +8845,7 @@ infi.wmi
 infi.wmpio
 infinario
 infinisdk
+infinity
 infix
 inflect
 inflection
@@ -8560,7 +8883,6 @@ inspyred
 instagram_api
 install-freedesktop
 install_binaries
-install_requires
 installdist
 instantlab_apiclient
 instantly
@@ -8568,6 +8890,7 @@ instantpl
 instaseis
 insteon-hub
 instructions
+instrumented-soap
 insultgenerator
 int
 intbitset
@@ -8575,7 +8898,6 @@ intelmq
 intensional
 interlap
 internet
-internetarchive
 interpy
 interstat
 interval-binning
@@ -8604,14 +8926,18 @@ invenio-collections
 invenio-config
 invenio-db
 invenio-documents
+invenio-files-rest
 invenio-i18n
 invenio-indexer
 invenio-jsonschemas
 invenio-logging
 invenio-mail
+invenio-marc21
+invenio-migrator
 invenio-oaiserver
 invenio-oauth2server
 invenio-oauthclient
+invenio-openaire
 invenio-pages
 invenio-pidstore
 invenio-query-parser
@@ -8624,6 +8950,9 @@ invenio-search-ui
 invenio-theme
 invenio-userprofiles
 invenio-webhooks
+invocare
+invocare-puppet
+invocare-ssh
 invoiced
 invoke
 inxpect
@@ -8636,6 +8965,7 @@ iocapture
 ioctl-opt
 iodine
 ioloop
+ion_oauth
 ios
 iosacal
 iotlabcli
@@ -8703,6 +9033,7 @@ ipythonblocks
 ipywidgets
 iran
 irc
+irc-autobot
 irc-toolkit
 irc3
 irclog2html
@@ -8710,6 +9041,7 @@ ircstat
 irctest
 ircutils3
 irename
+irisflower
 iron
 iron-cache
 iron-core
@@ -8723,6 +9055,7 @@ isapi_wsgi
 isatools
 isattribute
 isbinary
+isbinaryfile
 isbn_hyphenate
 isbnid
 isbnlib
@@ -8762,7 +9095,6 @@ isrcsubmit
 issharedobject
 isso
 isstandardlibrary
-isstandartlibrary
 isstaticmethod
 isstring
 issue
@@ -8786,8 +9118,10 @@ itv
 iugu-python3
 iva
 ivoire
+ivy-python
 izdvd
 j2hc
+jack-select
 jacquard
 jademagic
 jagged
@@ -8848,6 +9182,7 @@ jasy
 javabridge
 javalikescanner
 javaobj-py3
+javascripthon
 jazzhands
 jboss
 jcn
@@ -8857,10 +9192,12 @@ jdhp-setuptools-demo
 jedi
 jega
 jekkish
+jekt
 jekyll2nikola
 jellyfish
 jeni
 jenkins-autojobs
+jenkins-cli
 jenkins-job-builder
 jenkins-jobs-hidden-param
 jenkins-jobs-slack
@@ -8883,6 +9220,7 @@ jinja2-precompiler
 jinja2-s3loader
 jinja2-time
 jinja24doc
+jinja2_maps
 jinja2_markdown
 jinja2_pluralize
 jinja2_stl
@@ -8902,6 +9240,7 @@ jirafs-graphviz
 jirafs-latex
 jirafs-pandoc
 jirafs_list_table
+jismesh
 jizhi
 jjb-puppetlabs
 jlle
@@ -8957,6 +9296,7 @@ json-schema-validator
 json-sempai
 json-spec
 json262
+json2py
 json2tsv
 json5
 json_config
@@ -8978,6 +9318,7 @@ jsonhumanize
 jsonlib-python3
 jsonmapping
 jsonmerge
+jsonmodel
 jsonmodels
 jsonobjects
 jsonpatch
@@ -8987,6 +9328,7 @@ jsonpickle
 jsonpointer
 jsonquery
 jsonref
+jsonref-ap
 jsonresolver
 jsonrpc-requests
 jsonrpc2
@@ -9003,6 +9345,8 @@ jsonstat.py
 jsonstream
 jsonstruct
 jsontableschema
+jsontableschema-bigquery
+jsontableschema-sql
 jsonte
 jsonuri
 jsox-code-retreat
@@ -9099,6 +9443,8 @@ kaoz
 kapellmeister-ansible
 kaptan
 karaage-cluster-tools
+karellen-pyb-plugin
+karellen-testing
 karld
 karma
 karta
@@ -9161,6 +9507,7 @@ kfreader-cffi
 kg
 khakilet
 khmer
+kian
 kicad_bom
 kicad_netlist_reader
 kickbox
@@ -9180,6 +9527,7 @@ kinto
 kinto-attachment
 kinto-changes
 kinto-client
+kinto-dist
 kipart
 kiroku
 kishimenpy
@@ -9187,6 +9535,7 @@ kiste
 kitchen
 kite-mail
 kite-string
+kiteconnect
 kivy-automate
 kivy-django
 kkb
@@ -9195,7 +9544,9 @@ kkk
 klar
 klein
 kleio
+kliko
 klima
+klusta
 klustakwik2
 kmatch
 kmd
@@ -9241,6 +9592,7 @@ kraconvert
 krebszones
 krill
 krispackage
+kron
 krpc
 krpc.clientgen
 kryptomime
@@ -9260,6 +9612,7 @@ kw_ppjp.chat
 kwalitee
 kwallet-dump
 kwant
+kwipy
 kwonly
 kwpbar
 kwplayer
@@ -9271,6 +9624,8 @@ l
 l18n
 l1ls
 l5x
+laa
+lab_assistant
 labbook
 labkey
 labnote
@@ -9283,8 +9638,10 @@ ladon
 laf-fabric
 laileoulacuisse
 lalalala
+lambda-controller
 lambda-project-creator
 lambdaJSON
+lambda_packages
 lambdapi
 lambder
 lancelot
@@ -9315,6 +9672,7 @@ lassie
 lasso
 lastSoul
 lastpass-python
+laterpay-client
 latex
 latexcodec
 latexdiffcite
@@ -9330,6 +9688,7 @@ lauda
 launchd
 lawvere
 lawyerup
+layercake
 layered-yaml-attrdict-config
 layeredconfig
 lazarus
@@ -9350,6 +9709,7 @@ lazylist
 lazysorted
 lc8_download
 lcov_cobertura
+ld
 lda
 ldap-groups
 ldap3
@@ -9368,6 +9728,7 @@ leantesting
 leap
 learnchinese
 leboncoin_manager
+lectocal
 ledcontroller
 ledgerx-client-protocol
 ledgerx-protocol
@@ -9455,6 +9816,7 @@ libcli
 libcloud_api
 libearth
 libedooon
+libfaketime
 libgenapi
 libgravatar
 libgreader
@@ -9464,11 +9826,13 @@ libjio
 liblinker
 libnacl
 libnexmo
+libopenzwave-cffi
 libpagure
 libpci
 libpebble2
 libproc
 libpuzzle
+libpve
 libqrencode-cffi
 librarian
 librato-metrics
@@ -9523,13 +9887,13 @@ line-counter
 line_profiler
 linecache2
 linemode
-linereader
 lineup
 lingpy
 lingua
 linkGrabber
 linkchecker-tryer
 linked_list_mod
+linkedin-scraping
 linker
 linketurbidity
 linkhub
@@ -9594,13 +9958,14 @@ lnk
 lnkckr
 load_module
 load_resources
-load_source
 loadconfig
 loaded
 loadimpact
 loadimpact-v3
+lobot
 localkhan
 localshare
+localsnap
 locket
 lockfile
 lode
@@ -9668,10 +10033,12 @@ lribeiro.cherrypy.test
 lrparsing
 lru-dict
 lru2cache
+lrupy
 lrutils
 lsext
 lsptf
 lsqfit
+ltd-mason
 ltfatpy
 ltsvlogger
 lttnganalyses
@@ -9735,10 +10102,12 @@ machinae
 macholib
 macht
 mad2
+madmom
 madoka
 magellan
 maggit
 magic_lightning_remote
+magichomewifi
 magicmemoryview
 magicmethods
 magicstack
@@ -9757,6 +10126,7 @@ maildir-featurizer
 maildirproc
 mailer
 mailer3
+mailgun2
 mailjet_rest
 mailman
 mailman-hyperkitty
@@ -9771,7 +10141,9 @@ make-it-easy
 makeCourse
 make_gtfs
 make_qt_ui
+make_stub_files
 makeapp
+makechat
 makeenv
 makeobj
 makeprojects
@@ -9845,7 +10217,9 @@ marrow.server.http
 marrow.util
 marshmallow
 marshmallow-jsonapi
+marshmallow-jsonschema
 marshmallow-mongoengine
+marshmallow-oneofschema
 marshmallow-polyfield
 marshmallow-sqlalchemy
 marshmallow-validators
@@ -9883,6 +10257,7 @@ matthisk_httpsig
 mauritstestpackage
 maven-artifact
 mavpy
+maxmind_api
 maxminddb
 maxmindupdater
 maxthreads
@@ -9906,6 +10281,7 @@ mcloud-plugin-simple-publish
 mcp3008
 mcpy
 mcrunner
+mcserver-wrapper
 mcstatus
 md5checker
 md_utils
@@ -9940,6 +10316,7 @@ medularis-django-utils
 meepo
 meetup
 meetup-api
+megaman
 megaradrp
 mege
 meinheld
@@ -9982,6 +10359,7 @@ meshy-quantities
 meson
 mess
 mess-cms
+messages2json
 messagin
 messaging
 messier
@@ -10035,6 +10413,7 @@ meuhdb
 meza
 mezzanine-api
 mezzanine-buffer
+mezzanine-client
 mezzanine-invites
 mezzanine-meze
 mezzanine-page-auth
@@ -10055,6 +10434,7 @@ mgd
 mget
 mgp2pdf
 micawber
+micca
 mice
 micro-blog
 microbot
@@ -10068,6 +10448,7 @@ microsoft
 microsofttranslator
 microstackcommon
 microstacknode
+microversion_parse
 middlecoords
 miditime
 midnight
@@ -10083,6 +10464,7 @@ mimeparse
 mimerender
 mimetype-match
 mimic
+mimpy
 minchin.text
 mincss
 mincss3k
@@ -10093,6 +10475,7 @@ mineshaft
 minform
 mingus-rest-framework
 mini
+mini_fiction
 minibar
 minibelt
 minibench
@@ -10110,6 +10493,7 @@ minitrace
 miniuri
 minivect
 mintlabs
+mip2scout
 mir_eval
 miracle-acl
 miraclelight
@@ -10138,8 +10522,8 @@ mk.recipe.pip
 mkcss
 mkdirs
 mkdocs
+mkdocs-extensions
 mkdocs-versioned
-mkdong
 mkenv
 mklog
 mkmsdk
@@ -10148,6 +10532,7 @@ mkpassphrase
 mkpy
 mkterm
 mkv
+mlbgame
 mlocs
 mlpy
 mls
@@ -10161,6 +10546,7 @@ mnfy
 mo
 moarjson
 mobify
+mobile-atlas
 mobile-codes
 mobilechelonian
 mobius-tunes
@@ -10205,6 +10591,7 @@ modulecmd
 modulegraph
 modulo_teste
 moecache
+mogo
 mogrify
 mogwai
 mohawk
@@ -10220,6 +10607,7 @@ monad
 monarch
 monasca-ui
 money
+money-to-prisoners-utils
 moneybird
 moneywagon
 mongo-connector
@@ -10300,6 +10688,7 @@ motor
 motorengine
 mots-vides
 moult
+mountain_tapir
 mountepy
 mouse
 move
@@ -10308,6 +10697,7 @@ moviebarcodecreator
 moviemon
 mow
 moya
+moysklad
 mozilla-sphinx-theme
 mozsci
 mozurestsdk
@@ -10339,6 +10729,7 @@ mpworker
 mpyq
 mpyscm
 mqlparser
+mqreceive
 mqspeak
 mr-monkeypatch
 mr.bob
@@ -10348,6 +10739,7 @@ mr.developer.shell
 mremote
 mrfh
 mri_tools
+mrjob
 mrl
 mrlda
 mrlfp
@@ -10359,6 +10751,7 @@ msd
 msgcheck
 msgpack-python
 msgpack-rpc-python
+msgpacku
 msisdn-cli
 msmb_theme
 msmbuilder
@@ -10369,6 +10762,7 @@ msrest
 msrestazure
 msrx
 mss
+msstitch
 mstranslator
 mt-940
 mt940
@@ -10386,7 +10780,6 @@ muckrock
 muda
 mudl
 muffin
-muffin-admin
 muffin-babel
 muffin-cache
 muffin-debugtoolbar
@@ -10417,6 +10810,7 @@ multienum
 multifileiter
 multigtfs
 multihist
+multikdf
 multilayer_surface_plasmon
 multiline-log-formatter
 multilog
@@ -10442,6 +10836,7 @@ munkres3
 murano-dashboard
 murl
 murmgr
+murmurhash
 murmurhash3
 mus
 musdav
@@ -10476,6 +10871,7 @@ mwtextextractor
 mwtypes
 mwxml
 mxsniff
+my-test-package
 mybody
 mycli
 mycloud
@@ -10535,6 +10931,7 @@ nameko-sentry
 nameko-sqlalchemy
 nameless
 nameless-minimal
+namely
 nameparser
 names
 namestand
@@ -10552,6 +10949,7 @@ nanotest
 nanpy
 nap
 napi
+napper
 narmer
 nasp
 nass
@@ -10563,6 +10961,7 @@ natto-py
 natu
 natural-keys
 naturalsort
+naughty
 naval
 naverdic
 nb-mermaid
@@ -10581,6 +10980,7 @@ nbsphinx
 nbstripout
 nbt2yaml
 nbtemplate
+nbval
 nbwidget
 nbwidgets
 ncdistribute
@@ -10609,11 +11009,13 @@ nemo
 nengo_spinnaker
 neo
 neo4j-doc-manager
+neo4j-driver
 neo4jdb
 neo4jrestclient
 neoapi
 neobunch
 neokami-sdk
+neologdn
 neomodel
 neonsms
 neonx
@@ -10684,6 +11086,7 @@ neutron-lib
 neutron-ml2-driver-apic
 neutronbraggedge
 neutronpy
+new_my_json
 newick
 newpy
 newrelic
@@ -10716,7 +11119,6 @@ nhs
 ni
 niaopendata
 nicedice
-nicedjango
 nicer-tests
 niconico-translator
 nicopy
@@ -10729,6 +11131,7 @@ nimp
 nine
 ninjaturtle
 nistbeacon
+nixio
 nlist
 nlp
 nlpy
@@ -10743,12 +11146,14 @@ nmrglue
 nn_wtf
 nnpy
 nntoolkit
+nnyaaa
 noaaclass
 noaadem
 noat
 nobel
 nobeldb
 nobot
+nobu
 nocolon
 nodder
 node-semver
@@ -10770,6 +11175,7 @@ normality
 normalizePGN
 normalizr
 norman
+noscrapy
 nose
 nose-audio
 nose-cover3
@@ -10794,6 +11200,7 @@ nose-timer
 nose-watcher
 nose2
 nose2django
+nose2pytest
 nose_env_config
 noseapp
 nosebook
@@ -10872,6 +11279,7 @@ numina
 numparser
 numpngw
 numpy
+numpy-indexed
 numpy-mkl
 numpy_groupies
 numpydoc
@@ -10885,6 +11293,7 @@ nutritionparser
 nutshell
 nvchecker
 nvector
+nwid
 nxpydot
 nxsim
 nyaa
@@ -10916,9 +11325,11 @@ objectrocket
 objgraph
 objp
 obraz
+obscure
 observer.simple
 obspy
 ocdev
+oceansdb
 ocflib
 ocqm_cohort_website
 ocrmypdf
@@ -10930,6 +11341,7 @@ octave_kernel
 octbrowser
 octo
 octocat
+octoconf
 octohatrack
 octopie
 octopus-ci
@@ -10942,6 +11354,7 @@ odictliteral
 odin
 odintools
 odio
+odl
 odmpy
 odorik
 odpslides
@@ -10968,6 +11381,7 @@ ofxstatement-postfinance
 ofxstatement-simple
 ofxtools
 ogitm
+ogn-client
 ogn-python
 ognom
 oh-my-stars
@@ -11011,6 +11425,7 @@ onegov.election_day
 onegov.event
 onegov.form
 onegov.foundation
+onegov.gis
 onegov.libres
 onegov.newsletter
 onegov.onboarding
@@ -11042,7 +11457,10 @@ onyx.bloomberg
 onyx.core
 oogli
 ooi
+oopyconnector
 oore
+ooxx1024
+opan
 opbasm
 opbeat
 opc-diag
@@ -11051,6 +11469,7 @@ open-helpdesk
 open-humans-tornado-oauth2
 open511
 openS3
+open_source_library_data_collector
 openaccess_epub
 openapi-cli-client
 openassets
@@ -11066,6 +11485,7 @@ opencorpora-tools
 opendxmc
 openelections-metadata
 openerp_proxy
+opengb
 opengrid
 opengridview
 openid2rp
@@ -11077,6 +11497,7 @@ openpyxl
 openregister
 openregister-entry
 opensearch-python-sdk
+opensesame-windows-launcher
 openshift-under-kubernetes
 opensimplex
 openslide-python
@@ -11094,12 +11515,14 @@ openvas_to_report
 openvpn-status
 openweathermap_requests
 openweathermapy
+openytapi
 ophiology
 opinel
 opinio
 opp
 opterator
 optimage
+optimizely-platform
 optionaldict
 options
 optirx
@@ -11173,6 +11596,7 @@ osprey
 osprofiler
 osrparse
 oss2
+ostrichlib
 ostruct
 osx
 osx_only
@@ -11193,6 +11617,7 @@ ouimeaux
 ouroboros
 outernet-broadman
 outernet-metadata
+outlawg
 outpan
 outpost
 outproc
@@ -11202,7 +11627,6 @@ overloading
 overpass
 overpy
 ovh
-ovs
 owllib
 ownercredit
 ownrepo
@@ -11216,6 +11640,7 @@ p7doi
 p7edt2ics
 p7magma
 pCanary
+pHcalc
 pInteServ
 pOCCI
 pOFCy
@@ -11227,6 +11652,7 @@ packaging
 packbits
 packetary
 packhalp
+packingslip
 packingtape
 packit
 packtools
@@ -11263,6 +11689,7 @@ pan-python
 panama-template
 pancake
 panci
+pancircs
 pandaSDMX
 panda_black_test
 pandaemonium
@@ -11277,6 +11704,7 @@ pandas_degreedays
 pandas_talib
 pandashells
 pandastable
+pandoc
 pandoc-listof
 pandoc-numbering
 panedr
@@ -11309,6 +11737,8 @@ parameters
 paramiko
 paramnormal
 paramz
+parasail
+paratest
 parawrap
 parcelbright
 parguments
@@ -11347,6 +11777,7 @@ passpy
 passslot
 passta
 passweb
+passwoid
 password-store
 passwordmetrics
 passwords
@@ -11362,7 +11793,6 @@ patchtools
 patchy
 path.py
 path3
-path_helper
 path_overrides
 pathfix.py
 pathlib
@@ -11370,6 +11800,7 @@ pathlib2
 pathlib_revised
 paths
 pathspec
+pathvalidate
 patool
 patricia-trie
 patrol
@@ -11389,6 +11820,7 @@ paypal
 paypal-rest-sdk
 paypalrestsdk
 payplug
+payplug-dj
 paysafecard
 paystack
 paytrail
@@ -11405,6 +11837,7 @@ pbr
 pbr-samstav
 pbs
 pbundler
+pbxplore
 pcap-parser
 pcaspy
 pcassandra
@@ -11454,7 +11887,9 @@ peepin
 peewee
 peewee-async
 peewee-momoko
+peewee-moves
 peewee-simple-migrate
+peewee-validates
 peewee_migrate
 peg
 pelecanus
@@ -11480,6 +11915,7 @@ pelican_vimeo
 pelican_youtube
 pem
 penelope
+pengbot
 pep257
 pep3134
 pep3143daemon
@@ -11538,6 +11974,7 @@ pgcontents
 pgctl
 pgen2
 pgextras
+pghoard
 pgi
 pgist
 pglib
@@ -11575,6 +12012,7 @@ phishnetpy
 phizz
 pholcidae
 phone-iso3166
+phone2address
 phonehub
 phonenumbers
 phonenumberslite
@@ -11584,6 +12022,7 @@ photobackup_bottle
 photocollage
 photon_core
 photonemitter
+photorig
 photosorter
 photovoltaic-modeling-python
 photutils
@@ -11591,6 +12030,7 @@ php
 phpserialize
 phreeqpy
 phy
+phycontrib
 phylogemetric
 pi3d
 piHAcontrollers
@@ -11628,6 +12068,7 @@ pifacecommon
 pifacedigitalio
 pifaceio
 pifacerelayplus
+pifpaf
 pig
 pigar
 piggy
@@ -11644,6 +12085,7 @@ pikka-bird-collector
 pikka-bird-server
 pilbox
 pilkit
+piltesseract
 pimento
 pimglow
 pimpamqueues
@@ -11674,7 +12116,6 @@ pinax-phone-confirmation
 pinax-points
 pinax-ratings
 pinax-referrals
-pinax-stripe
 pinax-submissions
 pinax-teams
 pinax-testimonials
@@ -11725,6 +12166,7 @@ piper
 pipewelder
 piphub
 pipin
+piplapis-python3
 pippal
 pipreq
 pipreqs
@@ -11740,6 +12182,7 @@ pisco-sour
 pitble
 pitchfork
 pitchpx
+pitest
 pith
 pithos
 pive
@@ -11773,8 +12216,10 @@ planedict
 planetary_test_data
 planetaryimage
 planetfilter
+plantmeter
 plastid
 platinfo
+platyutil
 player
 playerdo
 playitagainsam
@@ -11830,6 +12275,7 @@ plyfile
 plytix-retailers-sdk
 plyvel
 pmath
+pmatic
 pmcyg
 pmi
 pmll
@@ -11848,6 +12294,7 @@ podcastbackup
 podhub.follower
 podhub.meh
 poezio
+pohmm
 point-tracker
 pointdns
 pointfree
@@ -11863,6 +12310,8 @@ policyd-rate-limit
 poll
 pollinotify
 pollute
+poly1305_aes
+poly1305_donna
 polybius
 polycircles
 polycomp
@@ -11879,7 +12328,6 @@ polysquare-travis-container
 pomodoro-calculator
 pomp
 ponto
-pontoon
 pony
 poor-smime-sign
 poorbox
@@ -11896,6 +12344,7 @@ port-range
 portalocker
 portend
 porter
+porter2stemmer
 portforwarder
 portio
 portolan
@@ -11905,6 +12354,7 @@ positional
 posix_ipc
 possel-server
 post
+postal
 postal-address
 postcodepy
 postdoc
@@ -11916,6 +12366,7 @@ postmarkup
 postmen
 postmon
 postnl-locations
+postpic
 postpone
 potplayer
 pottery
@@ -11972,6 +12423,7 @@ praw
 praw-oauth2util
 praw-script-oauth
 prawcore
+prawhelper
 prawoauth2
 prawtools
 pre-commit-mirror-maker
@@ -11986,6 +12438,7 @@ premailer
 preprocessor
 presence
 presets
+preshed
 pressagio
 prestans-devel
 presto
@@ -12001,7 +12454,6 @@ pretty-cron
 pretty-freeze
 pretty-print-json
 pretty-py3
-prettyPLS
 prettyconf
 prettyexc
 prettyip
@@ -12055,6 +12507,7 @@ progressbar2
 progressbar231
 progressbar3000
 progressbar33
+progressist
 progressive
 progrock
 proigia_logstash_formatter
@@ -12067,8 +12520,10 @@ projectoxford
 projecttimetracker
 proliphix
 prometheus
+prometheus_roller
 prompt
 prompt_toolkit
+promptapp
 prompter
 pronouncing
 proof
@@ -12097,6 +12552,7 @@ prwlock
 prymatex
 pryvate
 ps_alchemy
+ps_crud
 ps_tree
 psamm
 psas_packet
@@ -12106,6 +12562,7 @@ psd-tools
 psdtojpg
 pseud
 pseudo
+pseudo-python
 pseudomethod
 pseudopy
 pseudosugar
@@ -12149,7 +12606,9 @@ pubmed-lookup
 pubs
 pubsub-logging
 pubsublogger
+pubsubsql
 puck
+puckfetcher
 pudb
 pudding
 puente
@@ -12167,6 +12626,7 @@ pulsectl
 pumuckl
 punch
 pundle
+puni
 punter
 punter_cli
 pupa
@@ -12177,10 +12637,12 @@ purepng
 pureyaml
 purl
 purple
+purpler
 purpletag
 pushalot
 pushbots
 pushbullet.py
+pushed
 pusherclient
 pushetta
 pushi
@@ -12190,6 +12652,7 @@ pushjack
 pushjournal
 pushka
 pushover-cli
+pushpad
 pushwoosh
 putil
 puush.py
@@ -12218,10 +12681,12 @@ py-crypto-params
 py-dateutil
 py-dela
 py-deps
+py-encryption
 py-enigma
 py-eve-chat-mon
 py-fakename
 py-feedr
+py-gfm
 py-goldsberry
 py-googletrans
 py-grabber
@@ -12249,12 +12714,14 @@ py-translate
 py-trello
 py-tunes
 py-ubjson
+py-vgmplayer
 py-web-search
 py-winusb
 py-wsse
 py-xlsx
 py010parser
 py1cmd
+py25519
 py2app
 py2cytoscape
 py2exe
@@ -12285,6 +12752,7 @@ py420chan
 py4j
 py509
 py65
+py8583
 py8chan
 pyARGO
 pyBukGet
@@ -12331,7 +12799,6 @@ pyPDBeREST
 pyPEG2
 pyPassGenerator
 pyPicosat
-pyPluribus
 pyPodcastParser
 pyQRZ
 pyRFXtrx
@@ -12378,6 +12845,7 @@ pyahocorasick
 pyairview
 pyaixi
 pyalexa
+pyalexa-skill
 pyalipay
 pyalsaaudio
 pyam
@@ -12386,7 +12854,9 @@ pyandoc
 pyang
 pyanimenc
 pyannote-banyan
+pyannote.algorithms
 pyannote.core
+pyannote.metrics
 pyannote.parser
 pyannote.video
 pyant
@@ -12431,6 +12901,7 @@ pybibframe
 pybik
 pybind11
 pybinding
+pybiomart
 pybip38
 pybitbucket
 pybitid
@@ -12568,6 +13039,7 @@ pydatasentry
 pydba
 pydbus
 pydbusdecorator
+pydcs
 pydealer
 pydebsign
 pydenticon
@@ -12646,6 +13118,7 @@ pyemd
 pyemoji
 pyemojify
 pyenchant
+pyenet
 pyensae
 pyentrypoint
 pyenvjasmine
@@ -12676,6 +13149,7 @@ pyfaidx
 pyfarm.core
 pyfarm.master
 pyfarmhash
+pyfase
 pyfasm
 pyfastaq
 pyfastcopy
@@ -12757,8 +13231,10 @@ pygmm
 pygmount
 pygmsh
 pygnata
+pygnucash
 pygnurl
 pygogo
+pygoogling
 pygoqrme
 pygpg
 pygpgme
@@ -12773,6 +13249,8 @@ pygrooveshark
 pygrowup
 pygtfs
 pygtkspellcheck
+pygtop
+pygtp
 pyguacamole
 pygubu
 pyhaikunator
@@ -12801,6 +13279,7 @@ pyimgdown
 pyimpute
 pyimzML
 pyindent
+pyinduct
 pyinfoepub
 pyinotify
 pyinsane
@@ -12846,6 +13325,7 @@ pykit-sci
 pyknackhq
 pyknow
 pykwic
+pyl10n
 pylab
 pylama
 pylang
@@ -12872,6 +13352,7 @@ pylibscrypt
 pylice
 pylidar
 pyliftover
+pylimit
 pylinac
 pylinkchecker
 pylinkvalidator
@@ -12935,6 +13416,7 @@ pymdstat
 pymedia2-pyrana
 pymediafire
 pymemcache
+pymer
 pymeshio
 pyminidict
 pyminifier
@@ -12949,7 +13431,6 @@ pymmseg
 pymobile
 pymod2pkg
 pymola
-pymonetdb
 pymongo
 pymongo-amplidata
 pymonome
@@ -12992,6 +13473,7 @@ pynhost
 pynic
 pynion
 pynipap
+pynliner3
 pynmea2
 pynml
 pynopoly
@@ -13009,48 +13491,73 @@ pynvd3
 pyny
 pyobjc
 pyobjc-core
+pyobjc-framework-AVFoundation
+pyobjc-framework-AVKit
 pyobjc-framework-Accounts
 pyobjc-framework-AddressBook
 pyobjc-framework-AppleScriptKit
 pyobjc-framework-AppleScriptObjC
+pyobjc-framework-ApplicationServices
 pyobjc-framework-Automator
 pyobjc-framework-CFNetwork
 pyobjc-framework-CalendarStore
+pyobjc-framework-CloudKit
 pyobjc-framework-Cocoa
 pyobjc-framework-Collaboration
+pyobjc-framework-Contacts
+pyobjc-framework-ContactsUI
+pyobjc-framework-CoreBluetooth
 pyobjc-framework-CoreData
 pyobjc-framework-CoreLocation
 pyobjc-framework-CoreText
 pyobjc-framework-CoreWLAN
+pyobjc-framework-CryptoTokenKit
 pyobjc-framework-DictionaryServices
 pyobjc-framework-DiskArbitration
 pyobjc-framework-EventKit
 pyobjc-framework-ExceptionHandling
 pyobjc-framework-FSEvents
+pyobjc-framework-FinderSync
+pyobjc-framework-GameCenter
+pyobjc-framework-GameController
+pyobjc-framework-IMServicePlugIn
+pyobjc-framework-ImageCaptureCore
 pyobjc-framework-InputMethodKit
 pyobjc-framework-InstallerPlugins
 pyobjc-framework-InstantMessage
 pyobjc-framework-InterfaceBuilderKit
 pyobjc-framework-LatentSemanticMapping
 pyobjc-framework-LaunchServices
+pyobjc-framework-LocalAuthentication
+pyobjc-framework-MapKit
+pyobjc-framework-MediaAccessibility
+pyobjc-framework-MediaLibrary
 pyobjc-framework-Message
+pyobjc-framework-MultipeerConnectivity
+pyobjc-framework-NetFS
+pyobjc-framework-NotificationCenter
 pyobjc-framework-OpenDirectory
+pyobjc-framework-Photos
+pyobjc-framework-PhotosUI
 pyobjc-framework-PreferencePanes
 pyobjc-framework-PubSub
 pyobjc-framework-QTKit
 pyobjc-framework-Quartz
+pyobjc-framework-SceneKit
 pyobjc-framework-ScreenSaver
 pyobjc-framework-ScriptingBridge
 pyobjc-framework-SearchKit
 pyobjc-framework-ServerNotification
 pyobjc-framework-ServiceManagement
 pyobjc-framework-Social
+pyobjc-framework-SpriteKit
 pyobjc-framework-StoreKit
 pyobjc-framework-SyncServices
 pyobjc-framework-SystemConfiguration
 pyobjc-framework-WebKit
 pyobjc-framework-XgridFoundation
 pyocr
+pyodbc-raw
 pyoes
 pyohio2015
 pyokc
@@ -13058,6 +13565,7 @@ pyon
 pyonapp
 pyoneall
 pyopa
+pyopen189
 pyopencl
 pyopenmensa
 pyopenpgparse
@@ -13065,12 +13573,14 @@ pyoperators
 pyopossum3
 pyopt
 pyorick
+pyosf
 pyosgi
 pyotp
 pyoutube
 pyover
 pyownet
 pyp2p
+pyp2rpm
 pypackage
 pypagedlist
 pyparadox
@@ -13084,6 +13594,7 @@ pypay
 pypayd-ng
 pypaymentsense
 pypc
+pypcalc
 pypcappy
 pypdns
 pypebbleapi
@@ -13097,6 +13608,7 @@ pypf3
 pypfilt
 pypfop
 pypgqueue
+pypher
 pyphi
 pyphrasy
 pypi-alias
@@ -13146,6 +13658,7 @@ pyprof2calltree
 pyprof2html
 pyprofilehelper
 pyprofiler
+pyproteome
 pyproxy
 pypsi
 pypssl
@@ -13186,6 +13699,7 @@ pyquery
 pyquickhelper
 pyrabbit
 pyradau13
+pyrake
 pyramid
 pyramid-asyncio
 pyramid-cubicweb
@@ -13194,7 +13708,6 @@ pyramid-excel
 pyramid-handy
 pyramid-log
 pyramid-notebook
-pyramid-prometheus
 pyramid-sendgrid-webhooks
 pyramid-walrus
 pyramid_alchemy
@@ -13233,6 +13746,7 @@ pyramid_handlers
 pyramid_hsts
 pyramid_httpauth
 pyramid_i18n_wrapper
+pyramid_ipauth
 pyramid_ipython
 pyramid_jinja2
 pyramid_jwt
@@ -13311,8 +13825,10 @@ pyregion
 pyrenfe
 pyrepo
 pyres
+pyresttest
 pyretools
 pyriodic
+pyris
 pyriscope
 pyrobot
 pyrogg
@@ -13362,6 +13878,7 @@ pysdl2-sdl2ui
 pysec
 pysecure
 pysed
+pysee
 pysegbase
 pysend
 pysendfile
@@ -13389,6 +13906,7 @@ pysimulators
 pysinch
 pysipgate
 pysis
+pysispm
 pysite
 pyskein
 pyskip
@@ -13424,6 +13942,7 @@ pyspin
 pysplice
 pysplicer
 pyspotify
+pyspotify-connect
 pysprites
 pysptk
 pysptools
@@ -13446,9 +13965,11 @@ pysteinn
 pysterior
 pystex
 pystrap
+pystray
 pystreams
 pystruct
 pystubgen
+pystunnel
 pysubs
 pysubs2
 pysubtracking
@@ -13476,6 +13997,7 @@ pytaskpool
 pyte
 pyteamcity
 pytelemetry
+pytelemetrycli
 pytemperature
 pyteomics
 pyteomics.cythonize
@@ -13574,6 +14096,7 @@ pytest-readme
 pytest-remove-stale-bytecode
 pytest-rerunfailures
 pytest-runner
+pytest-selenium
 pytest-services
 pytest-sftpserver
 pytest-smartcov
@@ -13623,6 +14146,7 @@ python-auspost-pac
 python-auto-mock
 python-autocast
 python-automaton
+python-axolotl
 python-bandsintown
 python-barbicanclient
 python-bidi
@@ -13657,6 +14181,7 @@ python-configurator
 python-congressclient
 python-connpass
 python-consul
+python-coriolisclient
 python-coveralls
 python-cpl
 python-cps
@@ -13665,6 +14190,8 @@ python-crontab
 python-daemon
 python-daemon-3K
 python-dartmouthbanner
+python-datamatrix
+python-date-interval-generator
 python-dateconv
 python-datemath
 python-datetime2
@@ -13681,6 +14208,7 @@ python-diminuendo
 python-distilclient
 python-djvulibre
 python-dns-failover
+python-docker-machine
 python-docx
 python-dotenv
 python-dracclient
@@ -13698,7 +14226,9 @@ python-epo-ops-client
 python-esr
 python-etcd
 python-etcd-lock
+python-events
 python-figo
+python-fileinspector
 python-fire
 python-flipkart
 python-foreman
@@ -13727,6 +14257,7 @@ python-hdf4
 python-hdfs
 python-heatclient
 python-helper-utils
+python-hessian
 python-hglib
 python-highcharts
 python-hipchat-v1
@@ -13754,6 +14285,7 @@ python-keystoneclient-federation
 python-keystoneclient-saml2
 python-kong
 python-kyototycoon-ng
+python-lambda
 python-leetchi
 python-lefthandclient
 python-libdiscid
@@ -13772,9 +14304,11 @@ python-logging-json-formatter
 python-logging-twitter
 python-logstash
 python-loklak-api
+python-lora
 python-lorem-pixel
 python-louvain
 python-ly
+python-magic
 python-manage2
 python-mangopay
 python-manilaclient
@@ -13787,6 +14321,7 @@ python-mimeparse
 python-mmtf
 python-monasca-events
 python-monascaclient
+python-monkey-business
 python-moo
 python-moretools
 python-morfeusz
@@ -13797,6 +14332,8 @@ python-multipart
 python-munin
 python-muranoclient
 python-musicpd
+python-myeventhub
+python-nasapi
 python-networkmanager
 python-neutronclient
 python-nextbus
@@ -13810,6 +14347,7 @@ python-omega
 python-oneviewclient
 python-opc
 python-opengraph
+python-opensesame
 python-openstackclient
 python-openstacksdk
 python-osc
@@ -13832,11 +14370,14 @@ python-pptx
 python-praat-scripts
 python-prctl
 python-project-template
+python-pseudorandom
 python-pskc
 python-ptrace
 python-pytun
 python-qbittorrent
+python-qdatamatrix
 python-qpid-proton
+python-qprogedit
 python-qsoptex
 python-qualisys
 python-quickbooks
@@ -13857,6 +14398,7 @@ python-roboticeclient
 python-rtmidi
 python-rudp
 python-saharaclient
+python-sailsd
 python-scciclient
 python-scrapyd-api
 python-searchlightclient
@@ -13909,7 +14451,6 @@ python-termsize
 python-termstyle
 python-ternary
 python-testpkg
-python-tfstate
 python-thumbnail
 python-thumbnails
 python-tldap
@@ -13922,6 +14463,7 @@ python-tuskarclient
 python-twitch-stream
 python-twitter
 python-u2flib-server
+python-ubersmithclient
 python-ucto
 python-uinput
 python-updict
@@ -13958,6 +14500,7 @@ python-zaqarclient
 python-zillow
 python-zimbra
 python-zpar
+python3-keyczar
 python3-memcached
 python3-openid
 python3-openttd
@@ -13976,6 +14519,7 @@ python_osinfo
 python_packaging_demo
 python_redis
 python_struct
+python_swagger_ui
 python_toolbox
 python_wrap_cases
 pythonbrain
@@ -14011,6 +14555,7 @@ pytoolbox
 pytools
 pytoport
 pytorrentz
+pytpl
 pytraj
 pytrans
 pytreebank
@@ -14065,10 +14610,12 @@ pywake
 pywantickets
 pywatson
 pywayland
+pywbem
 pywd
 pyweasyl
 pyweaving
 pywebfaction
+pywebgettext
 pywebhdfs
 pywebhooks
 pywebsite
@@ -14097,6 +14644,7 @@ pywwt
 pyxDamerauLevenshtein
 pyxdg
 pyxdg-open
+pyxe
 pyxenon
 pyxero
 pyxkcdpass
@@ -14108,7 +14656,6 @@ pyxtension
 pyxtrabackup
 pyxtuml
 pyyawt
-pyyeti
 pyzaa
 pyzabbix
 pyzenobase
@@ -14141,14 +14688,16 @@ qifparse
 qiime-default-reference
 qiita_api_wrapper
 qimage2ndarray
+qingchat
+qingcloud-init
 qiniu
 qiniu-cli
 qiniu-lite
 qit
+qless-py
 qmarkpg
 qonda
 qp
-qpic
 qprompt
 qpy
 qqqfome
@@ -14219,6 +14768,8 @@ rabbitman
 rabbitmq-admin
 rabbitpy
 rabbitstew
+rabbittools
+rabifier
 rabird.core
 rabird.selenium
 rabird.winio
@@ -14273,9 +14824,11 @@ randomstate
 randstr
 randua
 ranger
+ranges
 ranges-consolidator
 ranking
 rapidpg
+rapidpro-for-rapidsms
 rapidpro-python
 rapidsms-multitenancy
 rapidsms-twilio
@@ -14288,6 +14841,7 @@ raspberrystem
 raspberrystem_ide
 raspberrystem_projects
 raspi
+raspisump
 raster2xyz
 rasterio
 rasterstats
@@ -14324,6 +14878,7 @@ rdbtools3
 rdflib
 rdflib-jsonld
 rdflib-sparqlstore
+rdflib-sqlalchemy
 rdflib-sqlite
 rdflib-zodb
 rdial
@@ -14332,6 +14887,7 @@ rdlm-py
 rdo
 rdp
 rdrand
+rds-cp
 rds-log
 reFILE
 reHCstar
@@ -14342,11 +14898,13 @@ readability
 readability-lxml
 readchar
 readerlib
+readgroup_platform_insertion
 readitbetter
 readlike
 readline
 readmd
 readme
+readme-page
 readme_renderer
 readycloud
 realcookie
@@ -14391,6 +14949,7 @@ redfearn
 redhat
 redirect-streams
 redis
+redis-astra
 redis-hashring
 redis-limpyd
 redis-limpyd-extensions
@@ -14444,6 +15003,7 @@ regressors
 reikna
 rejected
 rejviz
+rekall-capstone
 rekt
 rekt-googlecore
 rekt-googleplaces
@@ -14455,6 +15015,7 @@ relay-framework
 relayr
 releaser
 releases
+relic
 reliure
 reloadcmd
 reloaded-set
@@ -14470,6 +15031,7 @@ remote_copy_and_execute
 remote_ikernel
 remote_tox
 remotefreebox
+remotestatsclient
 remotia
 remoto
 remove_qcfailed_mapped
@@ -14560,6 +15122,8 @@ res-core
 res-scheduling
 reserve
 resolver_deco
+resolwe
+resolwe-bio
 resolwe-runtime-utils
 resource_alerter
 resourcedownloader
@@ -14592,11 +15156,11 @@ restview
 result
 resumable-urlretrieve
 resumeback
+resumeschema
 retask
 retdec-python
 rethinkstuff
 retinasdk
-retrace
 retry
 retrying
 retweet
@@ -14652,6 +15216,7 @@ rinoh-typeface-urwdingbats
 rinse
 rios.conversion
 rios.core
+rios_preprocessor
 ripe-atlas-monitor
 ripe.atlas.cousteau
 ripe.atlas.sagan
@@ -14682,6 +15247,7 @@ rm
 rmate
 rmoq
 rmqid
+rmr-django
 rn
 rnacounter
 rnc2rng
@@ -14690,6 +15256,7 @@ rnsutils
 roadrunnr
 roaringbitmap
 roax
+robber
 robby
 roboarm
 robobrowser
@@ -14703,6 +15270,7 @@ robotframework-imaplibrary
 robotframework-python3
 robotframework-selenium2screenshots
 robotframework-tools
+robotframework-xvfb
 robotonotebook
 robotpy-hal-base
 robotpy-hal-roborio
@@ -14716,6 +15284,7 @@ rock
 rocker
 rocket
 rocket-errbot
+rockettm
 rockstar
 rod
 rodacom.buildout.npm
@@ -14754,6 +15323,7 @@ rot
 rot13-cipher
 rotate-backups
 rotunicode
+round-py
 roundtable
 roundtm
 roundup2bitbucket
@@ -14775,6 +15345,7 @@ rpio-client
 rpm-uploader
 rpmbrew-tools
 rpmspectool
+rpqueue
 rpweibo
 rpy2
 rpyc
@@ -14801,6 +15372,7 @@ rss2email
 rsscalling
 rssfilter
 rsstail
+rst-validate
 rst.linker
 rst2ansi
 rst2beamer3k
@@ -14855,7 +15427,6 @@ rutermextract
 rutter
 rvic
 rvlm.entrypoint
-rwslib
 rwt
 rxjson
 rxv
@@ -14917,6 +15488,7 @@ sample_cesar
 sampleproject
 samsung
 samsungctl
+samyro
 sandbox
 sandboxie
 sandiego
@@ -14925,7 +15497,6 @@ sandman2
 sandpiper
 sandstorm
 sanelotto
-sanna
 sansaycdrparser
 sanzang-lib
 sanzang-utils
@@ -14969,9 +15540,9 @@ scdl
 scell
 scentamint
 schedule
-scheduledb
 schema
 schema-messages
+schema-salad
 schema_to_context
 schematics
 schemavalidator
@@ -14982,6 +15553,7 @@ schwifty
 scidb-py
 scikit-aero
 scikit-allel
+scikit-beam
 scikit-bio
 scikit-chem
 scikit-cuda
@@ -15055,6 +15627,8 @@ scrapinghub
 scrapple
 scraptty
 scrapy_model
+scrapybox
+scrapyjs
 scratch
 scratchapi
 screed
@@ -15097,13 +15671,20 @@ sealang
 seam
 seamless
 searchcmd
+searchie-tools-find_buildout_root
 searchie-tools-yaml2json
 searchstringparser
 seasnake
+seasonal
 seawater
 seccure
+secken-client
+secken-iam
+secken-sdk
+secken-utils
 secp256k1
 secp256k1-transient
+secretcrypt
 secure-Markdown
 secure-smtpd
 securepay
@@ -15118,6 +15699,7 @@ segpy
 segtok
 seinfeld
 seins
+seismograph
 seiton
 selecta
 selectel-api
@@ -15148,6 +15730,7 @@ senlin
 sense-hat
 sensit-client
 sensors.py
+sentinel-s3
 sentinels
 sentinelsat
 sentry-fogbugz
@@ -15155,6 +15738,7 @@ senza
 sep
 sepacbi
 seq
+seq-qc
 seqSieve
 seqfile
 seqlearn
@@ -15170,6 +15754,7 @@ serpent
 serpy
 server-expects
 serverauditor-sshconfig
+serverless-env
 service
 service_factory
 service_identity
@@ -15181,12 +15766,16 @@ setix
 setoptconf
 setproctitle
 settings-overrider
+setup_logging_for_me
 setupam
+setupext
 setupext-gitversion
 setuptools
 setuptools-bower
 setuptools-depsutil
 setuptools-git
+setuptools-golang
+setuptools-golang-examples
 setuptools-green
 setuptools-version-command
 setuptools_bzr
@@ -15194,6 +15783,7 @@ setuptools_hg
 setuptools_shim
 setuptools_subversion
 setuptools_svn
+setuptools_trial
 setuptricks
 setuputils3
 sexpdata
@@ -15237,6 +15827,7 @@ shellac
 shellescape
 shellinford
 shellish
+shellrun
 shells_kitchen
 shellstats
 shellvars
@@ -15302,7 +15893,7 @@ siilo
 silentiary
 silly-server
 silverscale
-sim_cca
+simctl
 simcx
 simdtk
 simian
@@ -15345,8 +15936,6 @@ simplebayes
 simplebitcoinfuncs
 simpleblog3
 simplebst
-simplebus
-simplebus-mail
 simplecoremidi
 simplecrypto
 simpledbf
@@ -15448,6 +16037,7 @@ skyfield
 skygear
 skylark
 skyman
+skymonitor
 skynet
 skyplus
 skyrocket
@@ -15458,6 +16048,7 @@ skywriter
 sl2gtfs
 slab
 slack
+slack-cli
 slack-client
 slack-export-viewer
 slack_responder
@@ -15477,6 +16068,7 @@ slacky
 slamon-afm
 slamon-agent
 slapos.recipe.cmmi
+slash
 slash_step
 slave
 sleekbasebot
@@ -15488,6 +16080,7 @@ sling
 slingshot
 slinky
 sliplib
+slither
 slixmpp
 sloth-ci
 sloth-ci.ext.build_email_notifications
@@ -15496,6 +16089,7 @@ sloth-ci.ext.docker_exec
 sloth-ci.ext.file_logs
 sloth-ci.ext.openvz_exec
 sloth-ci.ext.robots_txt
+sloth-ci.ext.shields_io
 sloth-ci.ext.ssh_exec
 sloth-ci.ext.webhooks
 sloth-ci.validators.bitbucket
@@ -15537,6 +16131,7 @@ smilepack
 smilite
 smmap
 smokesignal
+smolder
 smoothie
 smore
 sms-api
@@ -15575,6 +16170,7 @@ soapfish
 social
 social_stats_urls
 socialauth
+socialshare
 socii
 socket.io-announce
 socketlabs
@@ -15595,8 +16191,8 @@ solartime
 solidpython
 solidrpc
 solnado
+solo
 solowPy
-solrpy3
 solrq
 solutions
 solve360
@@ -15610,6 +16206,7 @@ sonosalarm
 sony
 sopel_modules.bytes
 sopel_modules.idlerpg
+sopiva
 sorl-thumbnail
 sorl-thumbnail-async
 sortcss.py
@@ -15619,6 +16216,7 @@ sortedmap
 sortedsets
 sortorder
 sortpythonmethods
+sos
 sostore
 soundcloud-cli
 sounddevice
@@ -15636,6 +16234,7 @@ spacebin
 spaceship
 spacestatus-export
 spacetrack
+spacetrackapi
 spack
 spake2
 spalloc
@@ -15658,6 +16257,7 @@ speaker
 spear.nist_sre12
 spec
 specpy
+spectastic
 spectra
 spectrum-python
 sped
@@ -15675,12 +16275,14 @@ sphinx-autodoc-annotation
 sphinx-autodoc-typehints
 sphinx-classy-code
 sphinx-confluence
+sphinx-csharp
 sphinx-docs-theme
 sphinx-epytext
 sphinx-intl
 sphinx-issues
 sphinx-kr-theme
 sphinx-me
+sphinx-navtree
 sphinx-nose
 sphinx-paramlinks
 sphinx-serve
@@ -15737,6 +16339,7 @@ sphinxcontrib-scaladomain
 sphinxcontrib-seqdiag
 sphinxcontrib-slide
 sphinxcontrib-spelling
+sphinxcontrib-tikz
 sphinxcontrib-visio
 sphinxcontrib.datatemplates
 sphinxcontrib.divparams
@@ -15752,6 +16355,7 @@ sphinxjp.themes.sphinxjp
 sphinxjp.usaturn
 sphinxleash
 sphinxtrap
+spiceypy
 spiderfetch
 spidev
 spin
@@ -15772,6 +16376,7 @@ spm
 spock
 spongeshaker
 spooky
+spoppy
 spotify-ripper
 spotifytracker
 spotipy-tui
@@ -15808,6 +16413,7 @@ sptrans
 spud
 spur
 spur.local
+sputnik
 spy-cli
 spycis
 spyder
@@ -15828,6 +16434,7 @@ sqlalchemy-hana
 sqlalchemy-migrate
 sqlalchemy-multidb
 sqlalchemy-nuodb
+sqlalchemy-postgres-copy
 sqlalchemy-redshift
 sqlalchemy-teradata
 sqlalchemy-views
@@ -15845,7 +16452,9 @@ sqlanydb
 sqlaqb
 sqlbuilder
 sqlforerogamer
+sqlibrist
 sqlist
+sqlite-orm
 sqlite3paramstyle
 sqlite3tools
 sqlite4dummy
@@ -15855,6 +16464,7 @@ sqlitebck
 sqlitedict
 sqlitefts
 sqlitelist
+sqlitemodel
 sqlize
 sqlize-pg
 sqlmagic
@@ -15883,15 +16493,18 @@ srtmerge
 srvlookup
 srxraylib
 ss
+ssan
 ssc
 ssdb
 ssdb.py
 ssdeep
 sse
+ssebastianj
 sseclient
 ssend
 ssfsm
 ssh-run
+ssh2ec2
 ssh_authorizer
 ssh_manage_api
 sshagentmux
@@ -15913,6 +16526,7 @@ st7036
 stabe
 stac
 stack-watcher
+stackFifoLifo
 stack_dumpper
 stackalytics
 stackbench
@@ -15933,10 +16547,12 @@ stampede
 stamper
 standardenum
 standardjson
+standardstreams
 standup
 stanley-outlet-control
 star
 starbase
+stardicter
 starforge
 starpicker
 start_jupyter_cm
@@ -15950,6 +16566,7 @@ stateless
 stateplane
 stathat
 static
+static-foundation
 static3
 staticjinja
 staticky
@@ -15982,11 +16599,13 @@ steinn
 stellar
 stemmsk
 stepic3
+stereo
 stevedore
 steward
 stft
 stfu
 stlsort
+stmcli
 stock_extractor
 stockbot
 stockfighter
@@ -15994,6 +16613,7 @@ stomp.py
 stoneredis
 stopit
 storage_interfaces
+storage_provisioner
 storageapi
 storagedef
 storedDict
@@ -16021,6 +16641,7 @@ stream-python
 stream_framework
 stream_tap
 streamexpect
+streampie
 streamrpc
 streamtuner2
 street-address
@@ -16033,10 +16654,12 @@ stringphone
 strings
 stringscore
 stripe
+stripe_api
 striplog
 stronglib
 strowger
 strsync
+structio
 structlog
 structs
 structures
@@ -16155,6 +16778,7 @@ swapper
 swdt-imbox
 sweetpotatopie
 swid_generator
+swift-commander
 swiftnbd
 swiftsc
 swigibpy
@@ -16219,6 +16843,7 @@ syseleven.cloudutils
 syseleven.cloudutilslibs
 sysenv
 sysid
+syslog-rfc5424-formatter
 syslog-rfc5424-parser
 syslogging
 syslogmp
@@ -16313,13 +16938,13 @@ tapioca-bookingsync
 tapioca-braspag
 tapioca-crunchbase
 tapioca-disqus
+tapioca-facebook
 tapioca-harvest
 tapioca-meetup
 tapioca-otter
 tapioca-toggl
 tapioca-wrapper
-tarball69_downloader
-tarball69_mass_rename
+targetprocess-client
 targets
 tarjan
 tartes
@@ -16357,6 +16982,7 @@ tay_say
 taz
 tazlib
 tbar
+tbee
 tbgrep
 tblib
 tbltojson
@@ -16422,6 +17048,7 @@ tempman
 tempora
 temporary
 temporenc
+tempy
 tendo
 tenper
 tenpy
@@ -16431,6 +17058,7 @@ tensors
 tequila
 teract
 teracy-django-html5-boilerplate
+tergraw
 term
 term2048
 term2048-AI
@@ -16443,6 +17071,7 @@ terminaltables
 terminology-tools
 termite
 termstyle
+termtex
 termtool
 termtrack
 termui
@@ -16450,10 +17079,12 @@ tern_django
 terrabot
 terraform
 terraform-aws-icons
+terraform_tfstate
 tess
 tesseract-ocr
 tesserpy
 tesserwrap
+test-automation-framework
 test-generator
 test-helpers
 test-out
@@ -16477,6 +17108,7 @@ testingbotclient
 testlib
 testpad
 testpath
+testrail
 testre
 testrepository
 tests-always-pass
@@ -16501,7 +17133,6 @@ text2datetime
 textacy
 textblob
 textblob-aptagger
-textblob-aptagger_latest
 textblob-de
 textblob-fr
 textdata
@@ -16535,6 +17166,7 @@ thermotools
 thespian
 thetvdb_api
 thin-man
+thinc
 thingamon
 thingitwrapper
 think
@@ -16549,9 +17181,11 @@ thread_safe_vk
 thread_utils
 threadactive
 threadfix_api
+threading-sched
 threadio
 threadloop
 threadpool
+threatfeed
 threebot-stats
 threecheck
 threeflex
@@ -16596,6 +17230,7 @@ tilepaper
 tillage
 timeat
 timedelta-tool
+timeexecution
 timegaps
 timekeeper
 timeoutcontext
@@ -16643,14 +17278,10 @@ tinytv
 tipper
 tipy
 tiqetsbarcode
+tissue_enrichment_analysis
 tit
 titan
 titlemarkdown
-tk2048
-tkBoulderDash
-tkRAD
-tkScenarist
-tkSudoku
 tk_nosy
 tkbak
 tkinterhtml
@@ -16682,6 +17313,7 @@ tmpo
 tms
 tmtest
 tmux-master
+tmux2html
 tmuxomatic
 tmuxp
 tmuxpair
@@ -16699,6 +17331,7 @@ tocka-django-cms
 tocka-djangocms-cascade
 todo-gtk
 todo.py
+todo.txt-pylib
 todo_list
 todopy2
 todotxt
@@ -16735,8 +17368,10 @@ tooz
 topas2numpy
 topology
 topology-docker
+topology_connect
 topology_lib_ip
 topology_lib_ping
+topology_lib_vtysh
 toposort
 topy
 topydo
@@ -16751,7 +17386,6 @@ tornado
 tornado-alf
 tornado-aws
 tornado-bedframe
-tornado-blueprint
 tornado-celery
 tornado-cors
 tornado-couchdb
@@ -16768,11 +17402,13 @@ tornado-smtp
 tornado-smtpclient
 tornado-stale-client
 tornado-transmute
+tornado-websocket-server
 tornado-xmlrpc
-tornadoMotorAcl
 tornado_angular
+tornado_async_odm
 tornado_content_negotiation
 tornado_elasticsearch
+tornado_jsonapi
 tornado_msgpack
 tornado_router
 tornado_systemd
@@ -16848,16 +17484,18 @@ trait_documenter
 traitlets
 traitsui
 traity
-trakt
 tral
 trans
 transaction
+transcriptic
 transcription
 transducer
 transfluent
 transforms3d
 transifex-client
 translate
+translate-toolkit
+translateit
 translationstring
 translit
 translitcodec
@@ -16877,6 +17515,8 @@ tree_extractor
 treedict
 treelib
 treemaker
+treepoem
+trees
 trelloapi
 trellopy
 tremendous
@@ -16887,7 +17527,6 @@ trezor_agent
 tri.declarative
 tri.form
 tri.named_struct
-tri.query
 tri.struct
 tri.table
 tri.tables
@@ -16915,6 +17554,7 @@ true50
 trueskill
 trv
 tryagain
+trypackage
 ts3
 tse
 tse2sql
@@ -16928,6 +17568,7 @@ tsmppt60-driver
 tss
 tstk
 tstoolbox
+tsukkomi
 tswift
 tt
 tta
@@ -16946,6 +17587,7 @@ tulip-images
 tulip-python
 tulipcore
 tulipgui-python
+tumdlr
 tune_reporting
 tunigo
 tuning_box
@@ -16962,6 +17604,7 @@ turnstile-codevalidator
 turnstile-core
 turnstile-specification
 turpial-sessions
+turquoise
 turses
 turtlepower
 tusfilter
@@ -17021,7 +17664,6 @@ twutil
 twx
 twx.botapi
 txExiftool
-txdarn
 txeffect
 txgeocodio
 txmongo
@@ -17050,6 +17692,7 @@ typespec
 typesys
 typhon
 typing
+typy
 tyuio
 tz-okapi
 tzf.pyramid_routing
@@ -17065,11 +17708,14 @@ ua-parser
 ua2.jsondoc
 ua2.table3
 uapycon
+uavcan_gui_tool
 uberpong
 ubersmith-remote-module-server
 ubersmith_client
 ubidots
 ubik
+ubit_kernel
+ubjsonstream
 ubl
 ubuntu
 ubuntufinder
@@ -17137,6 +17783,7 @@ unicode_ids
 unicodeblocks
 unicodecsv
 unicodemoticon
+unicornhat
 unidiff
 unify
 unilint
@@ -17156,6 +17803,8 @@ unittest2py3k
 unittest2six
 unittest_expander
 unittester
+unitypack
+universal-divergence
 universal_usbtmc
 unix
 unix_daemon
@@ -17186,6 +17835,7 @@ upoints
 upper-50
 uprefix
 ups
+upscrot
 uptime
 upyun
 ur1
@@ -17195,6 +17845,7 @@ uranium.plugin.example
 uranium.plugin.shell
 urbanairship3
 urbandict
+urbandictionary
 urbanpyctionary
 urcalc
 urihandler
@@ -17232,6 +17883,7 @@ usdt
 useless-utils
 user
 user-agents
+user-idle-time
 user_agent
 userapp
 userpath
@@ -17287,6 +17939,7 @@ validoot
 valipede
 value
 valuedispatch
+valve-monitor
 vamp
 van.pg
 van.potomo
@@ -17306,6 +17959,7 @@ vbmfa
 vboxtrayico
 vca-cli
 vcardgen
+vcardtools
 vcardz-data
 vcf_parser
 vcftoolbox
@@ -17360,6 +18014,7 @@ veryprettytable
 veusz
 vev
 vex
+vexbot
 vext
 vext.gi
 vext.panda3d
@@ -17372,6 +18027,7 @@ viceroy
 victor
 vidmaster
 vido
+viewflow-extensions
 vif-plug-hw-veb
 vigilance
 viivakoodi
@@ -17402,6 +18058,7 @@ virtualenvwrapper.djangodeploy
 virtualenvwrapper.nekbot
 virtualfish
 virtue
+virustotal-api
 vis-framework
 viscm
 visdebug
@@ -17419,9 +18076,11 @@ visvis
 vizydrop-sdk
 vjson
 vk
+vk-requests
 vklancer
 vladiate
 vlc-ctrl
+vmd2json
 vmflib
 vmock
 vmprof
@@ -17503,8 +18162,10 @@ wagtailimporter
 wagtailosm
 wagtailtinymce
 waifu-cli
+waiter
 waiting
 waitress
+wakeywakey
 waliki
 walkabout
 walker
@@ -17521,6 +18182,7 @@ warpdrive
 warport
 warthog
 wasabi.geom
+watch
 watch-fs
 watchdog
 watcher
@@ -17563,8 +18225,10 @@ wcwidth
 wdb
 wdb.server
 wddx
+wdiffhtml
 wdmtoolbox
 weakreflist
+weakscraper
 weathers
 weave-minimal
 weave-minimal-uberspace
@@ -17585,8 +18249,10 @@ webassets_ng_annotate
 webb
 webcam-streamer
 webcolors
+webcrystal
 webdata
 webdavclient
+webdev
 webdriverwrapper
 webencodings
 weber
@@ -17623,6 +18289,7 @@ weibo
 weihnachtsgurke
 weir
 weiyu
+welly
 wendelin.core
 weppy
 weppy-Assets
@@ -17648,7 +18315,6 @@ wgetter
 wgety
 whale-api
 wharfee
-what_dl
 whatami
 whatcd-cau
 whatever
@@ -17677,6 +18343,7 @@ whip
 whiplash
 whirl
 whisker
+whisker-serial-order
 whiskers
 whitenoise
 whizkers
@@ -17701,6 +18368,7 @@ wifi
 wigiki
 wigle
 wiki
+wiki-template
 wikia
 wikiapi
 wikiclass
@@ -17725,6 +18393,7 @@ windrose
 windtalker
 windy
 wine
+winkerberos
 winproxy
 winpython
 winremote
@@ -17732,7 +18401,6 @@ winrmlib
 wip
 wiredtiger-ffi
 wiring
-wishbone
 wissen
 with
 withenv
@@ -17741,8 +18409,8 @@ withref
 wiwi
 wjordpress
 wkbheader
+wlc
 wltp
-wm-signer
 wmon
 wmsigner
 wncc
@@ -17795,6 +18463,7 @@ write
 ws4py
 wsaccel
 wsgi-design
+wsgi-harakiri
 wsgi-liveserver
 wsgi-oauth2
 wsgi-request-logger
@@ -17909,13 +18578,13 @@ xkcdpass
 xkiller
 xlpo
 xlrd
+xlsconv
 xlsx2csv
 xlsx_streaming
 xlsxdiff
 xlwings
 xlwt
 xlwt-future
-xlwt3
 xml-cleaner
 xml2obj
 xml2xlsx
@@ -17926,6 +18595,7 @@ xmljson
 xmlpumpkin
 xmlrunner
 xmlsec
+xmltag
 xmltodict
 xmlunittest
 xmlunittestbetter
@@ -17959,6 +18629,7 @@ xsge_physics
 xsge_tmx
 xsnippet-cli
 xspear.fast_plda
+xtd
 xtea3
 xtermcolor
 xtoy
@@ -17974,9 +18645,11 @@ xxh
 xxhash
 xxhsum
 xxtea
+xxtea-py
 xxtea-python
 xzip
 yaaHN
+yact
 yad
 yaddle
 yadi
@@ -17989,6 +18662,7 @@ yahoo-finance
 yahoo_oauth
 yahooscraper
 yaipopt
+yalpt
 yamale
 yamjam
 yaml2ical
@@ -18006,7 +18680,6 @@ yamlordereddictloader
 yamlpage
 yamlsettings
 yamo
-yams
 yanc
 yandex-money-sdk
 yandex.translate
@@ -18061,7 +18734,11 @@ yolodb
 yomikata
 yopp
 yopy
+yosai
+yosai-alchemystore
+yosai-dpcache
 yothisisareallylongname
+yoton
 you-get
 your_app
 yourls
@@ -18158,8 +18835,10 @@ zci
 zcons
 zdaemon
 zdesk
+zdict
 zds-member
 zebra
+zeep
 zendesk_api
 zenhan
 zenodio
@@ -18171,6 +18850,7 @@ zeroc-ice
 zeroc-icecertutils
 zeroc-icehashpassword
 zeroconf
+zerodbext.catalog
 zeroless
 zeroless-tools
 zerotest

@@ -39,6 +39,10 @@
 # p = subprocess.Popen(['xsel','-pi'], stdin=subprocess.PIPE)
 # p.communicate(input="Hello, World")
 
-from subprocess import Popen, PIPE
-p = Popen(['xsel','-pi'], stdin=PIPE)
-p.communicate(input='Hello, World')
+# from subprocess import Popen, PIPE
+# p = Popen(['xsel','-pi'], stdin=PIPE)
+# p.communicate(input='Hello, World')
+
+import sh
+
+sh.xsel(sh.cat('data/copypasta.txt'), '-i')
