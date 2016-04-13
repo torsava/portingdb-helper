@@ -3,7 +3,7 @@
 import itertools
 import re
 import sh
-import pyperclip
+import pyperclip  # Key values: http://pyautogui.readthedocs.org/en/latest/keyboard.html?highlight=ctrl
 import pyautogui
 import argparse
 import time
@@ -18,6 +18,9 @@ def switch_to_browser():
 def switch_back_to_terminal():
     pyautogui.hotkey('alt', 'l')
     # pyautogui.hotkey('alt', 'tab')
+
+# Here usually you want 'ctrl', but I have highly remapped keyboard.
+CTRL_KEY_IDENTIFIER = 'capslock'
 
 
 # Setup logging
@@ -64,6 +67,7 @@ ready = not (args.after or args.start or args.only)
 url_buglist = "https://apps.fedoraproject.org/packages/%s/bugs"
 url_newbug = "https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&version=rawhide&component=%s"
 url_pkgdb = "https://admin.fedoraproject.org/pkgdb/package/rpms/%s"
+url_portingdb = "http://fedora.portingdb.xyz/pkg/%s"
 url_gittree = "http://pkgs.fedoraproject.org/cgit/rpms/%s.git/tree/%s.spec"
 
 if args.package:
@@ -76,7 +80,7 @@ else:
     print("May I suggest you forgot something?")
     packages = []
 
-for element in packages:
+for index, element in enumerate(packages):
     segments = element.strip().split()
     if len(segments) == 0:
         print("This line has no segments.")
@@ -98,7 +102,8 @@ for element in packages:
         else:
             continue
 
-    print("\n\n=================== %s ====================" % pkg)
+    print("\n\n=================== %s (%s) ===================="
+            % (pkg, index))
 
     # Search through PyPI:
     pkg_core = pkg.lower()
@@ -118,11 +123,12 @@ for element in packages:
     print()
 
     sh.google_chrome(url_newbug % pkg)
-    sh.google_chrome(url_gittree % (pkg, pkg))
-    sh.google_chrome(url_pkgdb % pkg)
+    # sh.google_chrome(url_gittree % (pkg, pkg))
+    # sh.google_chrome(url_pkgdb % pkg)
     if pkglink:
         sh.google_chrome(pkglink)
     sh.google_chrome(url_buglist % pkg)
+    sh.google_chrome(url_portingdb % pkg)
 
     # if not args.bug:
         # if pypi3:
@@ -134,15 +140,16 @@ for element in packages:
         # if response != 's':
         #     switch_to_browser()
         #     # pyautogui.typewrite(['/'], interval=0.25)
-        #     pyautogui.hotkey('ctrl', 'f')
+        #     pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'f')
         #     pyautogui.typewrite("upstream")
         #     pyautogui.typewrite(['esc'], interval=0.25)
-        #     pyautogui.hotkey('ctrl', 'enter')
-        #     # pyautogui.hotkey('ctrl', 'shift', 'tab')
-        #     pyautogui.hotkey('ctrl', 'shift', 'tab')
+        #     pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'enter')
+        #     # pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'shift', 'tab')
+        #     pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'shift', 'tab')
         #     pyperclip.copy('python')
 
     # Interactive phase
+    switch_back_to_terminal()
     response = input("Fill out new bug report?   " +
             "(Skip=leave empty; Yes=non empty; already [e]xists (just fill clipboard) ")
 
@@ -157,16 +164,19 @@ for element in packages:
         switch_to_browser()
         pyautogui.typewrite(['esc'])
         pyautogui.typewrite('gi')
-        pyautogui.typewrite(['tab', 'tab'])
+        pyautogui.typewrite(['tab'] * 17)
         pyautogui.typewrite("%s: Provide a Python 3 subpackage" % pkg)
         pyautogui.typewrite(['tab'])
-        pyautogui.hotkey('ctrl', 'a')
+        pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'a')
         pyperclip.copy(bugreport_msg)
-        pyautogui.hotkey('ctrl', 'v')
-        pyautogui.typewrite(['esc'])
-        time.sleep(0.5)
-        pyautogui.typewrite(['G', 'f'], interval=0.25)
-        pyperclip.copy('1285816')
+        pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'v')
+        pyautogui.typewrite(['tab'] * 3)
+        pyautogui.typewrite("1285816")
+        # time.sleep(0.7)
+        # pyautogui.typewrite(['esc'])
+        # time.sleep(0.7)
+        # pyautogui.typewrite(['G', 'f'], interval=0.25)
+        pyautogui.typewrite(['esc', 'esc', 'G', 'f'], interval=0.25)
 
         response = input("Log as successful Bug filing?   " +
                 "(Yes=leave empty) ")
