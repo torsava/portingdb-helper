@@ -904,3 +904,15 @@ Vim command to delete uninformative lines: :%s_.*<Command \'/usr/bin/google-chro
 2016-04-13 16:55:51,110 - <Command '/usr/bin/google-chro...(104 more)' call_args {'with': False, 'lon...(476 more)>: starting process
 2016-04-13 16:55:51,521 - <Command '/usr/bin/google-chro...(66 more)' call_args {'with': False, 'lon...(476 more)>: starting process
 2016-04-13 16:55:52,066 - <Command '/usr/bin/google-chro...(53 more)' call_args {'with': False, 'lon...(476 more)>: starting process
+2016-04-13 16:58:31,100 - <Command '/usr/bin/google-chro...(104 more)' call_args {'done': None, 'err_...(476 more)>: starting process
+2016-04-13 16:58:31,510 - <Command '/usr/bin/google-chro...(66 more)' call_args {'done': None, 'err_...(476 more)>: starting process
+2016-04-13 16:58:32,037 - <Command '/usr/bin/google-chro...(53 more)' call_args {'done': None, 'err_...(476 more)>: starting process
+2016-04-13 16:59:09,208 - Skipped: python-oslo-policy
+2016-04-13 16:59:09,413 - <Command '/usr/bin/google-chro...(114 more)' call_args {'iter': None, 'ok_c...(476 more)>: starting process
+2016-04-13 16:59:09,825 - <Command '/usr/bin/google-chro...(76 more)' call_args {'iter': None, 'ok_c...(476 more)>: starting process
+2016-04-13 16:59:10,372 - <Command '/usr/bin/google-chro...(63 more)' call_args {'iter': None, 'ok_c...(476 more)>: starting process
+2016-04-13 16:59:34,137 - Skipped: python-django-openstack-auth
+2016-04-13 16:59:40,631 - <Command '/usr/bin/google-chro...(114 more)' call_args {'piped': None, 'no_...(476 more)>: starting process
+2016-04-13 16:59:41,031 - <Command '/usr/bin/google-chro...(76 more)' call_args {'piped': None, 'no_...(476 more)>: starting process
+2016-04-13 16:59:41,556 - <Command '/usr/bin/google-chro...(63 more)' call_args {'piped': None, 'no_...(476 more)>: starting process
+2016-04-13 17:34:04,464 - Skipped: python-django-openstack-auth

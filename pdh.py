@@ -20,7 +20,7 @@ def switch_back_to_terminal():
     # pyautogui.hotkey('alt', 'tab')
 
 # Here usually you want 'ctrl', but I have highly remapped keyboard.
-CTRL_KEY_IDENTIFIER = 'capslock'
+CTRL_KEY_IDENTIFIER = 'ctrl'
 
 
 # Setup logging
