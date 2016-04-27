@@ -12,10 +12,12 @@ versions (called "Common SRPM" in the guidelines). Alternatively, if
 nothing depends on your Python2 package, you can just switch to Python 3
 entirely.
 
-It's ok to do this in Rawhide only, however, it would be greatly
+It's OK to do this in Rawhide only, however, it would be greatly
 appreciated if you could push it to Fedora 24 as well.
 
 
+If you need more instructions, a guide for porting Python-based RPMs is
+available at [2].
 If anything is unclear, or if you need any kind of assistance with the
 porting, you can ask on IRC (#fedora-python on Freenode), or reply here.
 We'll be happy to help!
@@ -23,3 +25,4 @@ We'll be happy to help!
 
 [0] https://fedoraproject.org/wiki/Packaging:Python
 [1] https://fedoraproject.org/wiki/Packaging:Python#Example_common_spec_file
+[2] http://python-rpm-porting.readthedocs.org/en/latest/index.html

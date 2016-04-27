@@ -916,3 +916,165 @@ Vim command to delete uninformative lines: :%s_.*<Command \'/usr/bin/google-chro
 2016-04-13 16:59:41,031 - <Command '/usr/bin/google-chro...(76 more)' call_args {'piped': None, 'no_...(476 more)>: starting process
 2016-04-13 16:59:41,556 - <Command '/usr/bin/google-chro...(63 more)' call_args {'piped': None, 'no_...(476 more)>: starting process
 2016-04-13 17:34:04,464 - Skipped: python-django-openstack-auth
+2016-04-15 11:11:35,607 - <Command '/usr/bin/google-chro...(100 more)' call_args {'piped': None, 'tim...(476 more)>: starting process
+2016-04-15 11:11:35,998 - <Command '/usr/bin/google-chro...(39 more)' call_args {'piped': None, 'tim...(476 more)>: starting process
+2016-04-15 11:11:36,490 - <Command '/usr/bin/google-chro...(62 more)' call_args {'piped': None, 'tim...(476 more)>: starting process
+2016-04-15 11:11:37,003 - <Command '/usr/bin/google-chro...(49 more)' call_args {'piped': None, 'tim...(476 more)>: starting process
+2016-04-15 11:12:38,988 - Already exists: python-oslo-db
+2016-04-15 11:12:38,996 - <Command '/usr/bin/cat data/co...(11 more)' call_args {'piped': None, 'tim...(476 more)>: starting process
+2016-04-15 11:12:39,009 - <Command '/usr/bin/xsel -i' call_args {'piped': None, 'tim...(476 more)>: starting process
+2016-04-15 11:12:39,029 - <Command '/usr/bin/google-chro...(101 more)' call_args {'piped': None, 'tim...(476 more)>: starting process
+2016-04-15 11:12:39,419 - <Command '/usr/bin/google-chro...(40 more)' call_args {'piped': None, 'tim...(476 more)>: starting process
+2016-04-15 11:12:39,963 - <Command '/usr/bin/google-chro...(63 more)' call_args {'piped': None, 'tim...(476 more)>: starting process
+2016-04-15 11:12:40,506 - <Command '/usr/bin/google-chro...(50 more)' call_args {'piped': None, 'tim...(476 more)>: starting process
+2016-04-15 11:17:00,168 - <Command '/usr/bin/google-chro...(101 more)' call_args {'iter': None, 'no_p...(476 more)>: starting process
+2016-04-15 11:17:00,567 - <Command '/usr/bin/google-chro...(63 more)' call_args {'iter': None, 'no_p...(476 more)>: starting process
+2016-04-15 11:17:01,049 - <Command '/usr/bin/google-chro...(40 more)' call_args {'iter': None, 'no_p...(476 more)>: starting process
+2016-04-15 11:17:01,581 - <Command '/usr/bin/google-chro...(88 more)' call_args {'iter': None, 'no_p...(476 more)>: starting process
+2016-04-15 11:17:02,203 - <Command '/usr/bin/google-chro...(50 more)' call_args {'iter': None, 'no_p...(476 more)>: starting process
+2016-04-15 11:17:21,654 - <Command '/usr/bin/google-chro...(101 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:17:22,044 - <Command '/usr/bin/google-chro...(63 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:17:22,546 - <Command '/usr/bin/google-chro...(40 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:17:23,050 - <Command '/usr/bin/google-chro...(88 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:17:23,750 - <Command '/usr/bin/google-chro...(50 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:18:14,985 - Filed: python-oslo-log
+2016-04-15 11:18:15,008 - <Command '/usr/bin/google-chro...(108 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:18:15,386 - <Command '/usr/bin/google-chro...(70 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:18:15,872 - <Command '/usr/bin/google-chro...(47 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:18:16,363 - <Command '/usr/bin/google-chro...(102 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:18:17,012 - <Command '/usr/bin/google-chro...(57 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:18:41,416 - Filed: python-oslo-middleware
+2016-04-15 11:18:41,430 - <Command '/usr/bin/google-chro...(106 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:18:41,834 - <Command '/usr/bin/google-chro...(68 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:18:42,377 - <Command '/usr/bin/google-chro...(45 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:18:42,910 - <Command '/usr/bin/google-chro...(98 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:18:43,642 - <Command '/usr/bin/google-chro...(55 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:19:03,256 - Already exists: python-oslo-rootwrap
+2016-04-15 11:19:03,261 - <Command '/usr/bin/cat data/co...(11 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:19:03,273 - <Command '/usr/bin/xsel -i' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:19:03,296 - <Command '/usr/bin/google-chro...(104 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:19:03,695 - <Command '/usr/bin/google-chro...(66 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:19:04,228 - <Command '/usr/bin/google-chro...(43 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:19:04,723 - <Command '/usr/bin/google-chro...(94 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:19:05,466 - <Command '/usr/bin/google-chro...(53 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:46:20,356 - Skipped: python-oslo-vmware
+2016-04-15 11:46:20,369 - <Command '/usr/bin/google-chro...(111 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:46:20,779 - <Command '/usr/bin/google-chro...(73 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:46:21,302 - <Command '/usr/bin/google-chro...(56 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:46:21,827 - <Command '/usr/bin/google-chro...(108 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:46:22,412 - <Command '/usr/bin/google-chro...(60 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:53:28,657 - Skipped: python-keystonemiddleware
+2016-04-15 11:53:28,670 - <Command '/usr/bin/google-chro...(107 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:53:29,070 - <Command '/usr/bin/google-chro...(69 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:53:29,613 - <Command '/usr/bin/google-chro...(53 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:53:30,150 - <Command '/usr/bin/google-chro...(100 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:53:30,789 - <Command '/usr/bin/google-chro...(56 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:54:18,344 - Already exists: python-barbicanclient
+2016-04-15 11:54:18,351 - <Command '/usr/bin/cat data/co...(11 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:54:18,363 - <Command '/usr/bin/xsel -i' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:54:18,383 - <Command '/usr/bin/google-chro...(105 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:54:18,785 - <Command '/usr/bin/google-chro...(67 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:54:19,331 - <Command '/usr/bin/google-chro...(57 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:54:19,835 - <Command '/usr/bin/google-chro...(96 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:54:20,526 - <Command '/usr/bin/google-chro...(54 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:55:12,847 - Already exists: python-cinderclient
+2016-04-15 11:55:12,852 - <Command '/usr/bin/cat data/co...(11 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:55:12,865 - <Command '/usr/bin/xsel -i' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:55:12,884 - <Command '/usr/bin/google-chro...(105 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:55:13,273 - <Command '/usr/bin/google-chro...(67 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:55:13,837 - <Command '/usr/bin/google-chro...(57 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:55:14,402 - <Command '/usr/bin/google-chro...(96 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:55:15,200 - <Command '/usr/bin/google-chro...(54 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:57:41,110 - Skipped: python-glanceclient
+2016-04-15 11:57:41,124 - <Command '/usr/bin/google-chro...(105 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:57:41,523 - <Command '/usr/bin/google-chro...(67 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:57:42,047 - <Command '/usr/bin/google-chro...(51 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:57:42,602 - <Command '/usr/bin/google-chro...(96 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:57:43,197 - <Command '/usr/bin/google-chro...(54 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:58:16,198 - Filed: python-ironicclient
+2016-04-15 11:58:16,211 - <Command '/usr/bin/google-chro...(106 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:58:16,601 - <Command '/usr/bin/google-chro...(68 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:58:17,085 - <Command '/usr/bin/google-chro...(52 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:58:17,623 - <Command '/usr/bin/google-chro...(98 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:58:18,365 - <Command '/usr/bin/google-chro...(55 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:58:38,229 - Filed: python-neutronclient
+2016-04-15 11:58:38,245 - <Command '/usr/bin/google-chro...(108 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:58:38,665 - <Command '/usr/bin/google-chro...(70 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:58:39,180 - <Command '/usr/bin/google-chro...(54 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:58:39,713 - <Command '/usr/bin/google-chro...(102 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:58:40,422 - <Command '/usr/bin/google-chro...(57 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:59:54,485 - Skipped: python-openstackclient
+2016-04-15 11:59:54,500 - <Command '/usr/bin/google-chro...(105 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:59:54,900 - <Command '/usr/bin/google-chro...(67 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:59:55,403 - <Command '/usr/bin/google-chro...(51 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:59:55,907 - <Command '/usr/bin/google-chro...(96 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 11:59:56,514 - <Command '/usr/bin/google-chro...(54 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:01:43,748 - Skipped: python-saharaclient
+2016-04-15 12:01:43,769 - <Command '/usr/bin/google-chro...(108 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:01:44,170 - <Command '/usr/bin/google-chro...(70 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:01:44,673 - <Command '/usr/bin/google-chro...(54 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:01:45,216 - <Command '/usr/bin/google-chro...(102 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:01:45,824 - <Command '/usr/bin/google-chro...(57 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:02:29,708 - Already exists: python-designateclient
+2016-04-15 12:02:29,713 - <Command '/usr/bin/cat data/co...(11 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:02:29,725 - <Command '/usr/bin/xsel -i' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:02:29,745 - <Command '/usr/bin/google-chro...(105 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:02:30,135 - <Command '/usr/bin/google-chro...(67 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:02:30,649 - <Command '/usr/bin/google-chro...(44 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:02:31,176 - <Command '/usr/bin/google-chro...(96 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:02:31,856 - <Command '/usr/bin/google-chro...(54 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:03:48,044 - Skipped: python-glance-store
+2016-04-15 12:03:48,066 - <Command '/usr/bin/google-chro...(101 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:03:48,466 - <Command '/usr/bin/google-chro...(63 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:03:49,020 - <Command '/usr/bin/google-chro...(40 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:03:49,564 - <Command '/usr/bin/google-chro...(88 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:03:50,118 - <Command '/usr/bin/google-chro...(50 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:05:35,602 - Skipped: python-os-brick
+2016-04-15 12:05:35,615 - <Command '/usr/bin/google-chro...(116 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:05:36,018 - <Command '/usr/bin/google-chro...(78 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:05:36,553 - <Command '/usr/bin/google-chro...(62 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:05:37,120 - <Command '/usr/bin/google-chro...(118 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:05:37,778 - <Command '/usr/bin/google-chro...(65 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:22,370 - Skipped: python-ironic-inspector-client
+2016-04-15 12:07:22,384 - <Command '/usr/bin/google-chro...(106 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:22,784 - <Command '/usr/bin/google-chro...(68 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:23,348 - <Command '/usr/bin/google-chro...(45 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:23,892 - <Command '/usr/bin/google-chro...(98 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:24,417 - <Command '/usr/bin/google-chro...(55 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:54,201 - Already exists: python-gnocchiclient
+2016-04-15 12:07:54,207 - <Command '/usr/bin/cat data/co...(11 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:54,219 - <Command '/usr/bin/xsel -i' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:54,237 - <Command '/usr/bin/google-chro...(105 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:54,637 - <Command '/usr/bin/google-chro...(67 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:55,173 - <Command '/usr/bin/google-chro...(51 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:55,750 - <Command '/usr/bin/google-chro...(96 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:07:56,563 - <Command '/usr/bin/google-chro...(54 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:08:41,025 - Filed: python-manilaclient
+2016-04-15 12:08:41,039 - <Command '/usr/bin/google-chro...(107 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:08:41,440 - <Command '/usr/bin/google-chro...(69 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:08:41,974 - <Command '/usr/bin/google-chro...(53 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:08:42,528 - <Command '/usr/bin/google-chro...(100 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:08:43,179 - <Command '/usr/bin/google-chro...(56 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:09:02,073 - Already exists: python-barbicanclient
+2016-04-15 12:09:02,078 - <Command '/usr/bin/cat data/co...(11 more)' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-15 12:09:02,090 - <Command '/usr/bin/xsel -i' call_args {'with': False, 'tim...(476 more)>: starting process
+2016-04-18 12:12:05,659 - <Command '/usr/bin/google-chro...(105 more)' call_args {'piped': None, 'in'...(476 more)>: starting process
+2016-04-18 12:12:06,049 - <Command '/usr/bin/google-chro...(67 more)' call_args {'piped': None, 'in'...(476 more)>: starting process
+2016-04-18 12:12:06,533 - <Command '/usr/bin/google-chro...(96 more)' call_args {'piped': None, 'in'...(476 more)>: starting process
+2016-04-18 12:12:07,027 - <Command '/usr/bin/google-chro...(54 more)' call_args {'piped': None, 'in'...(476 more)>: starting process
+2016-04-18 12:19:47,846 - Filed: python-saharaclient
+2016-04-20 14:23:28,931 - <Command '/usr/bin/google-chro...(101 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-04-20 14:23:29,321 - <Command '/usr/bin/google-chro...(63 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-04-20 14:23:29,834 - <Command '/usr/bin/google-chro...(88 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-04-20 14:23:30,358 - <Command '/usr/bin/google-chro...(50 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-04-20 14:24:28,403 - Filed: nautilus-python
+2016-04-20 14:58:55,749 - <Command '/usr/bin/google-chro...(99 more)' call_args {'in': None, 'long_s...(476 more)>: starting process
+2016-04-20 14:58:56,150 - <Command '/usr/bin/google-chro...(61 more)' call_args {'in': None, 'long_s...(476 more)>: starting process
+2016-04-20 14:58:56,662 - <Command '/usr/bin/google-chro...(84 more)' call_args {'in': None, 'long_s...(476 more)>: starting process
+2016-04-20 14:58:57,167 - <Command '/usr/bin/google-chro...(48 more)' call_args {'in': None, 'long_s...(476 more)>: starting process
+2016-04-20 15:00:46,770 - Filed: gnome-desktop
+2016-04-22 14:09:24,529 - <Command '/usr/bin/google-chro...(89 more)' call_args {'with': False, 'ok_...(476 more)>: starting process
+2016-04-22 14:09:24,919 - <Command '/usr/bin/google-chro...(51 more)' call_args {'with': False, 'ok_...(476 more)>: starting process
+2016-04-22 14:09:25,463 - <Command '/usr/bin/google-chro...(64 more)' call_args {'with': False, 'ok_...(476 more)>: starting process
+2016-04-22 14:09:26,026 - <Command '/usr/bin/google-chro...(38 more)' call_args {'with': False, 'ok_...(476 more)>: starting process
+2016-04-22 14:20:45,326 - Skipped: vte

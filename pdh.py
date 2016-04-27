@@ -68,7 +68,7 @@ url_buglist = "https://apps.fedoraproject.org/packages/%s/bugs"
 url_newbug = "https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&version=rawhide&component=%s"
 url_pkgdb = "https://admin.fedoraproject.org/pkgdb/package/rpms/%s"
 url_portingdb = "http://fedora.portingdb.xyz/pkg/%s"
-url_gittree = "http://pkgs.fedoraproject.org/cgit/rpms/%s.git/tree/%s.spec"
+url_specfile = "http://pkgs.fedoraproject.org/cgit/rpms/%s.git/tree/%s.spec"
 
 if args.package:
     packages = [args.package[0]]
@@ -123,11 +123,11 @@ for index, element in enumerate(packages):
     print()
 
     sh.google_chrome(url_newbug % pkg)
-    # sh.google_chrome(url_gittree % (pkg, pkg))
+    sh.google_chrome(url_buglist % pkg)
     # sh.google_chrome(url_pkgdb % pkg)
     if pkglink:
         sh.google_chrome(pkglink)
-    sh.google_chrome(url_buglist % pkg)
+    sh.google_chrome(url_specfile % (pkg, pkg))
     sh.google_chrome(url_portingdb % pkg)
 
     # if not args.bug:
@@ -149,7 +149,7 @@ for index, element in enumerate(packages):
         #     pyperclip.copy('python')
 
     # Interactive phase
-    switch_back_to_terminal()
+    # switch_back_to_terminal()
     response = input("Fill out new bug report?   " +
             "(Skip=leave empty; Yes=non empty; already [e]xists (just fill clipboard) ")
 
