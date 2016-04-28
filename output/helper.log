@@ -1078,3 +1078,39 @@ Vim command to delete uninformative lines: :%s_.*<Command \'/usr/bin/google-chro
 2016-04-22 14:09:25,463 - <Command '/usr/bin/google-chro...(64 more)' call_args {'with': False, 'ok_...(476 more)>: starting process
 2016-04-22 14:09:26,026 - <Command '/usr/bin/google-chro...(38 more)' call_args {'with': False, 'ok_...(476 more)>: starting process
 2016-04-22 14:20:45,326 - Skipped: vte
+2016-04-27 18:58:52,101 - <Command '/usr/bin/google-chro...(90 more)' call_args {'env': None, 'encod...(476 more)>: starting process
+2016-04-27 18:58:52,500 - <Command '/usr/bin/google-chro...(52 more)' call_args {'env': None, 'encod...(476 more)>: starting process
+2016-04-27 18:58:53,034 - <Command '/usr/bin/google-chro...(66 more)' call_args {'env': None, 'encod...(476 more)>: starting process
+2016-04-27 18:58:53,557 - <Command '/usr/bin/google-chro...(39 more)' call_args {'env': None, 'encod...(476 more)>: starting process
+2016-04-27 19:12:33,930 - <Command '/usr/bin/google-chro...(90 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-04-27 19:12:34,340 - <Command '/usr/bin/google-chro...(52 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-04-27 19:12:34,886 - <Command '/usr/bin/google-chro...(66 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-04-27 19:12:35,422 - <Command '/usr/bin/google-chro...(58 more)' call_args {'err_to_out': None,...(476 more)>: starting process
+2016-04-27 19:13:18,275 - <Command '/usr/bin/google-chro...(90 more)' call_args {'err_bufsize': 1, '...(476 more)>: starting process
+2016-04-27 19:13:18,685 - <Command '/usr/bin/google-chro...(52 more)' call_args {'err_bufsize': 1, '...(476 more)>: starting process
+2016-04-27 19:13:19,218 - <Command '/usr/bin/google-chro...(66 more)' call_args {'err_bufsize': 1, '...(476 more)>: starting process
+2016-04-27 19:13:19,763 - <Command '/usr/bin/google-chro...(58 more)' call_args {'err_bufsize': 1, '...(476 more)>: starting process
+2016-04-27 19:14:32,572 - <Command '/usr/bin/google-chro...(90 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:14:32,983 - <Command '/usr/bin/google-chro...(52 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:14:33,497 - <Command '/usr/bin/google-chro...(66 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:14:34,014 - <Command '/usr/bin/google-chro...(39 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:14:34,777 - <Command '/usr/bin/google-chro...(58 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:19:12,992 - Skipped: bdii
+2016-04-27 19:19:13,006 - <Command '/usr/bin/google-chro...(90 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:19:13,436 - <Command '/usr/bin/google-chro...(52 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:19:13,929 - <Command '/usr/bin/google-chro...(66 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:19:14,462 - <Command '/usr/bin/google-chro...(39 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:19:15,017 - <Command '/usr/bin/google-chro...(58 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:22:58,438 - Skipped: lnst
+2016-04-27 19:22:58,452 - <Command '/usr/bin/google-chro...(94 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:22:58,854 - <Command '/usr/bin/google-chro...(56 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:22:59,356 - <Command '/usr/bin/google-chro...(74 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:22:59,900 - <Command '/usr/bin/google-chro...(43 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:23:00,556 - <Command '/usr/bin/google-chro...(62 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:33:10,745 - Skipped: pki-core
+2016-04-27 19:33:10,759 - <Command '/usr/bin/google-chro...(95 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:33:11,165 - <Command '/usr/bin/google-chro...(57 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:33:11,699 - <Command '/usr/bin/google-chro...(76 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:33:12,212 - <Command '/usr/bin/google-chro...(44 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:33:12,810 - <Command '/usr/bin/google-chro...(63 more)' call_args {'internal_bufsize':...(476 more)>: starting process
+2016-04-27 19:48:27,515 - Filed: yumdaemon

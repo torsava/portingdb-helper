@@ -129,24 +129,23 @@ for index, element in enumerate(packages):
         sh.google_chrome(pkglink)
     sh.google_chrome(url_specfile % (pkg, pkg))
     sh.google_chrome(url_portingdb % pkg)
-
-    # if not args.bug:
-        # if pypi3:
-        #     sh.google_chrome("https://pypi.python.org/pypi?:action=browse&c=533&show=all")
-
-        # sh.google_chrome(url_pkgdb % pkg)
-        # switch_back_to_terminal()
-        # response = input("Loaded?   (Press [Enter]; [s]kip) ")
-        # if response != 's':
-        #     switch_to_browser()
-        #     # pyautogui.typewrite(['/'], interval=0.25)
-        #     pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'f')
-        #     pyautogui.typewrite("upstream")
-        #     pyautogui.typewrite(['esc'], interval=0.25)
-        #     pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'enter')
-        #     # pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'shift', 'tab')
-        #     pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'shift', 'tab')
-        #     pyperclip.copy('python')
+    if pypi3:
+        sh.google_chrome("https://pypi.python.org/pypi?:action=browse&c=533&show=all")
+    if not args.bug:
+        sh.google_chrome(url_pkgdb % pkg)
+        switch_back_to_terminal()
+        response = input("Loaded?   (Press [Enter]; [s]kip) ")
+        if response != 's':
+            switch_to_browser()
+            # pyautogui.typewrite(['/'], interval=0.25)
+            pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'f')
+            pyautogui.typewrite("upstream")
+            pyautogui.typewrite(['esc'], interval=0.25)
+            pyautogui.hotkey('enter')
+            # pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'enter')
+            # pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'shift', 'tab')
+            # pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'shift', 'tab')
+            pyperclip.copy('python')
 
     # Interactive phase
     # switch_back_to_terminal()

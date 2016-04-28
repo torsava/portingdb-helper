@@ -25,4 +25,4 @@ We'll be happy to help!
 
 [0] https://fedoraproject.org/wiki/Packaging:Python
 [1] https://fedoraproject.org/wiki/Packaging:Python#Example_common_spec_file
-[2] http://python-rpm-porting.readthedocs.org/en/latest/index.html
+[2] http://python-rpm-porting.readthedocs.io/
