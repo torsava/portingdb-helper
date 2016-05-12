@@ -12,15 +12,17 @@ import os
 
 # User settings
 def switch_to_browser():
-    pyautogui.hotkey('alt', 'h')
+    pyautogui.hotkey('alt', 'n')
     # pyautogui.hotkey('alt', 'tab')
 
 def switch_back_to_terminal():
-    pyautogui.hotkey('alt', 'l')
+    pyautogui.hotkey('alt', 'i')
     # pyautogui.hotkey('alt', 'tab')
 
 # Here usually you want 'ctrl', but I have highly remapped keyboard.
 CTRL_KEY_IDENTIFIER = 'ctrl'
+
+PYTHON3_TRACKING_BUG = "PYTHON3"
 
 
 # Setup logging
@@ -52,12 +54,12 @@ with open('data/copypasta.txt') as copypasta:
 
 # Let's parse cmd line arguments
 parser = argparse.ArgumentParser(description='Process portingdb packages.')
+parser.add_argument('-b', '--bug', dest='bug', action='store_true', help='solely file a bug for the package(s)')
 parser.add_argument('-p', '--package', dest='package', nargs=1, help='process only package named PACKAGE')
-parser.add_argument('-b', '--bug', dest='bug', nargs=1, help='solely file a bug for package named PACKAGE')
 parser.add_argument('-f', '--file', dest='file', nargs=1, help='work with packages from FILE')
-parser.add_argument('-a', '--after', dest='after', nargs=1, help='start after package')
-parser.add_argument('-s', '--start', dest='start', nargs=1, help='start from package')
-parser.add_argument('-o', '--only', dest='only', nargs=1, help='process only one package')
+parser.add_argument('-a', '--after', dest='after', nargs=1, help='start after package in the file')
+parser.add_argument('-s', '--start', dest='start', nargs=1, help='start from package in the file')
+parser.add_argument('-o', '--only', dest='only', nargs=1, help='process only one package from the file')
 args = parser.parse_args()
 
 ready = not (args.after or args.start or args.only)
@@ -72,8 +74,6 @@ url_specfile = "http://pkgs.fedoraproject.org/cgit/rpms/%s.git/tree/%s.spec"
 
 if args.package:
     packages = [args.package[0]]
-elif args.bug:
-    packages = [args.bug[0]]
 elif args.file:
     packages = open(args.file[0])
 else:
@@ -106,6 +106,7 @@ for index, element in enumerate(packages):
             % (pkg, index))
 
     # Search through PyPI:
+    # TODO: Try substituting dases for dots and the other way around
     pkg_core = pkg.lower()
     pkg_core = re.sub("(?i)^python\d?-?", '', pkg_core)
     pkg_core = re.sub("(?i)^py-?", '', pkg_core)
@@ -124,14 +125,15 @@ for index, element in enumerate(packages):
 
     sh.google_chrome(url_newbug % pkg)
     sh.google_chrome(url_buglist % pkg)
-    # sh.google_chrome(url_pkgdb % pkg)
-    if pkglink:
-        sh.google_chrome(pkglink)
-    sh.google_chrome(url_specfile % (pkg, pkg))
     sh.google_chrome(url_portingdb % pkg)
-    if pypi3:
-        sh.google_chrome("https://pypi.python.org/pypi?:action=browse&c=533&show=all")
+
     if not args.bug:
+        if pkglink:
+            sh.google_chrome(pkglink)
+        sh.google_chrome(url_specfile % (pkg, pkg))
+        if pypi3:
+            sh.google_chrome("https://pypi.python.org/pypi?:action=browse&c=533&show=all")
+
         sh.google_chrome(url_pkgdb % pkg)
         switch_back_to_terminal()
         response = input("Loaded?   (Press [Enter]; [s]kip) ")
@@ -155,7 +157,7 @@ for index, element in enumerate(packages):
     if response == 'e':
         logger.info("Already exists: %s" % pkg)
         # Copy bug id to clipboard
-        pyperclip.copy('1285816')
+        pyperclip.copy(PYTHON3_TRACKING_BUG )
         # Copy bug text to 'Primary selection' on linux
         sh.xsel(sh.cat('data/copypasta.txt'), '-i')
     elif response:
@@ -170,17 +172,18 @@ for index, element in enumerate(packages):
         pyperclip.copy(bugreport_msg)
         pyautogui.hotkey(CTRL_KEY_IDENTIFIER, 'v')
         pyautogui.typewrite(['tab'] * 3)
-        pyautogui.typewrite("1285816")
+        pyautogui.typewrite(PYTHON3_TRACKING_BUG )
         # time.sleep(0.7)
         # pyautogui.typewrite(['esc'])
         # time.sleep(0.7)
         # pyautogui.typewrite(['G', 'f'], interval=0.25)
         pyautogui.typewrite(['esc', 'esc', 'G', 'f'], interval=0.25)
 
+    if response:
         response = input("Log as successful Bug filing?   " +
                 "(Yes=leave empty) ")
         if not response:
-            logger.info("Filed: %s" % pkg)
+            logger.info("Filed or exists: %s" % pkg)
         else:
             # User chose not to fill out a bug report.
             logger.info("Skipped: %s" % pkg)
